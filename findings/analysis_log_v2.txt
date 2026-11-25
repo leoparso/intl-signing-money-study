@@ -1,0 +1,826 @@
+{
+ "Q1_mlb7": {
+  "n": 3987,
+  "lr": 8.0,
+  "df": 5,
+  "p": 0.15634117411906634,
+  "passed": false,
+  "by_group": {
+   "C": {
+    "n": 398,
+    "hits": 8,
+    "rate": 0.0201,
+    "ci": [
+     0.0102,
+     0.0392
+    ]
+   },
+   "LHP": {
+    "n": 409,
+    "hits": 8,
+    "rate": 0.0196,
+    "ci": [
+     0.0099,
+     0.0381
+    ]
+   },
+   "OF": {
+    "n": 686,
+    "hits": 23,
+    "rate": 0.0335,
+    "ci": [
+     0.0224,
+     0.0498
+    ]
+   },
+   "Other IF": {
+    "n": 254,
+    "hits": 10,
+    "rate": 0.0394,
+    "ci": [
+     0.0215,
+     0.0709
+    ]
+   },
+   "RHP": {
+    "n": 1717,
+    "hits": 60,
+    "rate": 0.0349,
+    "ci": [
+     0.0272,
+     0.0447
+    ]
+   },
+   "SS": {
+    "n": 523,
+    "hits": 32,
+    "rate": 0.0612,
+    "ci": [
+     0.0437,
+     0.0851
+    ]
+   }
+  },
+  "odds_vs_RHP_after_tier": {
+   "C": [
+    0.54,
+    0.25,
+    1.14
+   ],
+   "LHP": [
+    0.54,
+    0.25,
+    1.14
+   ],
+   "OF": [
+    0.65,
+    0.39,
+    1.1
+   ],
+   "Other IF": [
+    1.0,
+    0.5,
+    2.02
+   ],
+   "SS": [
+    1.04,
+    0.63,
+    1.7
+   ]
+  }
+ },
+ "Q1_fv50": {
+  "n": 5798,
+  "lr": 9.32,
+  "df": 5,
+  "p": 0.0968285823165242,
+  "passed": false,
+  "by_group": {
+   "C": {
+    "n": 576,
+    "hits": 12,
+    "rate": 0.0208,
+    "ci": [
+     0.012,
+     0.0361
+    ]
+   },
+   "LHP": {
+    "n": 578,
+    "hits": 2,
+    "rate": 0.0035,
+    "ci": [
+     0.0009,
+     0.0125
+    ]
+   },
+   "OF": {
+    "n": 962,
+    "hits": 16,
+    "rate": 0.0166,
+    "ci": [
+     0.0103,
+     0.0268
+    ]
+   },
+   "Other IF": {
+    "n": 357,
+    "hits": 2,
+    "rate": 0.0056,
+    "ci": [
+     0.0015,
+     0.0202
+    ]
+   },
+   "RHP": {
+    "n": 2544,
+    "hits": 10,
+    "rate": 0.0039,
+    "ci": [
+     0.0021,
+     0.0072
+    ]
+   },
+   "SS": {
+    "n": 781,
+    "hits": 23,
+    "rate": 0.0294,
+    "ci": [
+     0.0197,
+     0.0438
+    ]
+   }
+  },
+  "odds_vs_RHP_after_tier": {
+   "C": [
+    3.56,
+    1.45,
+    8.75
+   ],
+   "LHP": [
+    0.96,
+    0.2,
+    4.5
+   ],
+   "OF": [
+    1.35,
+    0.56,
+    3.26
+   ],
+   "Other IF": [
+    0.78,
+    0.16,
+    3.8
+   ],
+   "SS": [
+    1.67,
+    0.71,
+    3.95
+   ]
+  }
+ },
+ "Q1_share": {
+  "RHP": {
+   "share_signees": 0.431,
+   "share_mlb": 0.426,
+   "war7": 38.5
+  },
+  "LHP": {
+   "share_signees": 0.103,
+   "share_mlb": 0.057,
+   "war7": 3.0
+  },
+  "C": {
+   "share_signees": 0.1,
+   "share_mlb": 0.057,
+   "war7": 10.1
+  },
+  "SS": {
+   "share_signees": 0.131,
+   "share_mlb": 0.227,
+   "war7": 35.0
+  },
+  "Other IF": {
+   "share_signees": 0.064,
+   "share_mlb": 0.071,
+   "war7": 15.1
+  },
+  "OF": {
+   "share_signees": 0.172,
+   "share_mlb": 0.163,
+   "war7": 41.2
+  }
+ },
+ "Q2": {
+  "pitchers_fv50": {
+   "n": 135,
+   "hits": 8,
+   "improvement": -0.0575,
+   "ci": [
+    -0.1429,
+    0.0172
+   ],
+   "p": 0.9265,
+   "passed": false,
+   "or_per_inch": 1.343,
+   "or_per_10lb": 0.938,
+   "median_h_hit": 75.0,
+   "median_h_miss": 74.0,
+   "median_w_hit": 190.0,
+   "median_w_miss": 180.0
+  },
+  "pitchers_mlb7": {
+   "n": 85,
+   "hits": 26,
+   "improvement": -0.0321,
+   "ci": [
+    -0.0641,
+    0.0012
+   ],
+   "p": 0.97175,
+   "passed": false,
+   "or_per_inch": 1.048,
+   "or_per_10lb": 1.007,
+   "median_h_hit": 74.0,
+   "median_h_miss": 73.0,
+   "median_w_hit": 175.0,
+   "median_w_miss": 175.0
+  },
+  "hitters_fv50": {
+   "n": 394,
+   "hits": 50,
+   "improvement": 0.0019,
+   "ci": [
+    -0.0109,
+    0.0131
+   ],
+   "p": 0.375,
+   "passed": false,
+   "or_per_inch": 1.158,
+   "or_per_10lb": 1.043,
+   "median_h_hit": 73.0,
+   "median_h_miss": 72.0,
+   "median_w_hit": 180.0,
+   "median_w_miss": 175.0
+  },
+  "hitters_mlb7": {
+   "n": 221,
+   "hits": 47,
+   "improvement": -0.0082,
+   "ci": [
+    -0.0266,
+    0.0103
+   ],
+   "p": 0.8095,
+   "passed": false,
+   "or_per_inch": 0.892,
+   "or_per_10lb": 0.928,
+   "median_h_hit": 72.0,
+   "median_h_miss": 72.0,
+   "median_w_hit": 170.0,
+   "median_w_miss": 175.0
+  }
+ },
+ "size_coverage": {
+  "classes_16_19": 0.07429526994744386,
+  "classes_16_22": 0.08906949742909272,
+  "mlb7_with_size": 0.5244755244755245
+ },
+ "height_bands": {
+  "pitchers_fv50": {
+   "6'0\" or less": {
+    "n": 16,
+    "hits": 2,
+    "rate": 0.125,
+    "ci": [
+     0.035,
+     0.3602
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 44,
+    "hits": 2,
+    "rate": 0.0455,
+    "ci": [
+     0.0126,
+     0.1514
+    ]
+   },
+   "6'3\"-6'4\"": {
+    "n": 46,
+    "hits": 0,
+    "rate": 0.0,
+    "ci": [
+     -0.0,
+     0.0771
+    ]
+   },
+   "6'5\"+": {
+    "n": 29,
+    "hits": 4,
+    "rate": 0.1379,
+    "ci": [
+     0.055,
+     0.3056
+    ]
+   }
+  },
+  "hitters_fv50": {
+   "5'10\" or less": {
+    "n": 69,
+    "hits": 5,
+    "rate": 0.0725,
+    "ci": [
+     0.0313,
+     0.1587
+    ]
+   },
+   "5'11\"-6'0\"": {
+    "n": 149,
+    "hits": 15,
+    "rate": 0.1007,
+    "ci": [
+     0.062,
+     0.1595
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 132,
+    "hits": 18,
+    "rate": 0.1364,
+    "ci": [
+     0.088,
+     0.2053
+    ]
+   },
+   "6'3\"+": {
+    "n": 52,
+    "hits": 14,
+    "rate": 0.2692,
+    "ci": [
+     0.1677,
+     0.4025
+    ]
+   }
+  },
+  "pitchers_mlb7": {
+   "6'0\" or less": {
+    "n": 12,
+    "hits": 5,
+    "rate": 0.4167,
+    "ci": [
+     0.1933,
+     0.6805
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 30,
+    "hits": 7,
+    "rate": 0.2333,
+    "ci": [
+     0.1179,
+     0.4093
+    ]
+   },
+   "6'3\"-6'4\"": {
+    "n": 26,
+    "hits": 8,
+    "rate": 0.3077,
+    "ci": [
+     0.165,
+     0.4999
+    ]
+   },
+   "6'5\"+": {
+    "n": 17,
+    "hits": 6,
+    "rate": 0.3529,
+    "ci": [
+     0.1731,
+     0.587
+    ]
+   }
+  },
+  "hitters_mlb7": {
+   "5'10\" or less": {
+    "n": 30,
+    "hits": 9,
+    "rate": 0.3,
+    "ci": [
+     0.1666,
+     0.4788
+    ]
+   },
+   "5'11\"-6'0\"": {
+    "n": 94,
+    "hits": 22,
+    "rate": 0.234,
+    "ci": [
+     0.1599,
+     0.329
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 73,
+    "hits": 13,
+    "rate": 0.1781,
+    "ci": [
+     0.1071,
+     0.2812
+    ]
+   },
+   "6'3\"+": {
+    "n": 29,
+    "hits": 5,
+    "rate": 0.1724,
+    "ci": [
+     0.076,
+     0.3455
+    ]
+   }
+  }
+ },
+ "size_profile": {
+  "pitchers": {
+   "all_n": 85,
+   "all_h": 74.0,
+   "all_w": 175.0,
+   "mlb_n": 26,
+   "mlb_h": 74.0,
+   "mlb_w": 175.0,
+   "mlb_h_iqr": [
+    72.25,
+    75.0
+   ],
+   "mlb_w_iqr": [
+    165.75,
+    188.75
+   ]
+  },
+  "hitters": {
+   "all_n": 226,
+   "all_h": 72.0,
+   "all_w": 175.0,
+   "mlb_n": 49,
+   "mlb_h": 72.0,
+   "mlb_w": 170.0,
+   "mlb_h_iqr": [
+    71.0,
+    73.0
+   ],
+   "mlb_w_iqr": [
+    160.0,
+    185.0
+   ]
+  }
+ },
+ "Q3": {
+  "n": 4186,
+  "auc_fullseason_s3": 0.838,
+  "auc_tier": 0.604,
+  "auc_out_of_dsl_s2": 0.773,
+  "diff": 0.235,
+  "ci": [
+   0.194,
+   0.272
+  ],
+  "p": 0.0,
+  "passed": true
+ },
+ "funnel": [
+  {
+   "stage": "Signed",
+   "n": 4186,
+   "share_of_signees": 1.0,
+   "mlb7": 143,
+   "mlb_rate": 0.0342,
+   "share_of_big_leaguers": 1.0
+  },
+  {
+   "stage": "Still with a club after pro season 2",
+   "n": 3142,
+   "share_of_signees": 0.7506,
+   "mlb7": 141,
+   "mlb_rate": 0.0449,
+   "share_of_big_leaguers": 0.986
+  },
+  {
+   "stage": "Out of the DSL by pro season 2",
+   "n": 1865,
+   "share_of_signees": 0.4455,
+   "mlb7": 139,
+   "mlb_rate": 0.0745,
+   "share_of_big_leaguers": 0.972
+  },
+  {
+   "stage": "Full-season ball by pro season 3",
+   "n": 1127,
+   "share_of_signees": 0.2692,
+   "mlb7": 132,
+   "mlb_rate": 0.1171,
+   "share_of_big_leaguers": 0.923
+  },
+  {
+   "stage": "Reached MLB within 7 seasons",
+   "n": 143,
+   "share_of_signees": 0.0342,
+   "mlb7": 143,
+   "mlb_rate": 1.0,
+   "share_of_big_leaguers": 1.0
+  }
+ ],
+ "path_by_tier": {
+  "A": {
+   "full_s3": {
+    "n": 102,
+    "hits": 31,
+    "rate": 0.3039,
+    "ci": [
+     0.2231,
+     0.399
+    ]
+   },
+   "not": {
+    "n": 18,
+    "hits": 0,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.1759
+    ]
+   }
+  },
+  "B": {
+   "full_s3": {
+    "n": 34,
+    "hits": 3,
+    "rate": 0.0882,
+    "ci": [
+     0.0305,
+     0.2296
+    ]
+   },
+   "not": {
+    "n": 9,
+    "hits": 0,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.2992
+    ]
+   }
+  },
+  "C": {
+   "full_s3": {
+    "n": 991,
+    "hits": 98,
+    "rate": 0.0989,
+    "ci": [
+     0.0818,
+     0.1191
+    ]
+   },
+   "not": {
+    "n": 3032,
+    "hits": 11,
+    "rate": 0.0036,
+    "ci": [
+     0.002,
+     0.0065
+    ]
+   }
+  }
+ },
+ "late_bloomers": {
+  "big_leaguers": 143,
+  "in_dsl_after_s2": 4,
+  "not_full_by_s3": 11,
+  "names_not_full_by_s3": [
+   [
+    "Maikel Garcia",
+    2016,
+    "KC",
+    9.0
+   ],
+   [
+    "Yainer Diaz",
+    2016,
+    "CLE",
+    6.5
+   ],
+   [
+    "Angel Zerpa",
+    2016,
+    "KC",
+    1.2
+   ],
+   [
+    "Agust\u00edn Ram\u00edrez",
+    2018,
+    "NYY",
+    0.9
+   ],
+   [
+    "Jos\u00e9 A. Ferrer",
+    2017,
+    "WSH",
+    0.8
+   ],
+   [
+    "Prelander Berroa",
+    2016,
+    "MIN",
+    0.3
+   ],
+   [
+    "Jos\u00e9 Lopez",
+    2016,
+    "TB",
+    0.0
+   ],
+   [
+    "Carlos Vargas",
+    2016,
+    "CLE",
+    -0.0
+   ]
+  ],
+  "released_then_mlb": 3
+ },
+ "Q4": {
+  "n": 311,
+  "or_older": 0.76,
+  "ci": [
+   0.43,
+   1.35
+  ],
+  "p": 0.35154375520800785,
+  "passed": false,
+  "by_band": {
+   "16": {
+    "n": 110,
+    "hits": 27,
+    "rate": 0.2455,
+    "ci": [
+     0.1745,
+     0.3336
+    ]
+   },
+   "17": {
+    "n": 138,
+    "hits": 25,
+    "rate": 0.1812,
+    "ci": [
+     0.1258,
+     0.2538
+    ]
+   },
+   "18+": {
+    "n": 63,
+    "hits": 23,
+    "rate": 0.3651,
+    "ci": [
+     0.2572,
+     0.4885
+    ]
+   }
+  },
+  "coverage": 0.07429526994744386,
+  "caveat": "Cohort is signees on a public list within two seasons of signing (date of birth known before outcomes), so it leans to the top of the market."
+ },
+ "BH": {
+  "Q1_mlb7": {
+   "p": 0.15634,
+   "q": 0.41691,
+   "survives": false
+  },
+  "Q1_fv50": {
+   "p": 0.09683,
+   "q": 0.38731,
+   "survives": false
+  },
+  "Q2_pitchers_fv50": {
+   "p": 0.9265,
+   "q": 0.97175,
+   "survives": false
+  },
+  "Q2_pitchers_mlb7": {
+   "p": 0.97175,
+   "q": 0.97175,
+   "survives": false
+  },
+  "Q2_hitters_fv50": {
+   "p": 0.375,
+   "q": 0.6,
+   "survives": false
+  },
+  "Q2_hitters_mlb7": {
+   "p": 0.8095,
+   "q": 0.97175,
+   "survives": false
+  },
+  "Q3": {
+   "p": 0.0,
+   "q": 0.0,
+   "survives": true
+  },
+  "Q4": {
+   "p": 0.35154,
+   "q": 0.6,
+   "survives": false
+  }
+ },
+ "profile": {
+  "n_signees": 4186,
+  "n_big": 143,
+  "pitcher_share_signees": 0.533,
+  "pitcher_share_big": 0.482,
+  "lhp_share_of_pitchers_signees": 0.192,
+  "lhp_share_of_pitchers_big": 0.118,
+  "bats_hitters_big": {
+   "R": 50,
+   "L": 15,
+   "S": 10
+  },
+  "bats_hitters_listed": {
+   "R": 217,
+   "L": 76,
+   "S": 66
+  },
+  "age_band_big": {
+   "18+": 60,
+   "16": 44,
+   "17": 39
+  },
+  "age_known_big": 1.0,
+  "early_listed_share_signees": 0.074,
+  "early_listed_share_big": 0.524,
+  "traded_before_debut": 48,
+  "debut_with_signing_club": null,
+  "debut_age_median": 22.5,
+  "debut_age_known": 143,
+  "debut_age_dist": {
+   "19": 2,
+   "20": 7,
+   "21": 20,
+   "22": 45,
+   "23": 35,
+   "24": 16,
+   "25": 12,
+   "26": 2,
+   "27": 3,
+   "28": 1
+  }
+ },
+ "side_output": {
+  "Hitters": {
+   "signees": 1861,
+   "mlb7": 73,
+   "rate": 0.0392,
+   "war7": 101.4,
+   "war_all": 228.8
+  },
+  "Pitchers": {
+   "signees": 2126,
+   "mlb7": 68,
+   "rate": 0.032,
+   "war7": 41.5,
+   "war_all": 83.9
+  }
+ },
+ "position_changes": {
+  "big_leaguers_16_22": 216,
+  "hitter_to_pitcher": [
+   [
+    "Daysbel Hern\u00e1ndez",
+    "OF",
+    0.9
+   ]
+  ],
+  "pitcher_to_hitter": [
+   [
+    "Alejandro Kirk",
+    "RHP",
+    13.9
+   ]
+  ],
+  "signed_ss": 42,
+  "signed_ss_mlb_pos": {
+   "SS": 14,
+   "2B": 12,
+   "3B": 9,
+   "CF": 2,
+   "RF": 1,
+   "LF": 1,
+   "1B": 1,
+   "DH": 1
+  },
+  "signed_c": 19,
+  "signed_c_mlb_pos": {
+   "C": 16,
+   "RF": 1,
+   "LF": 1,
+   "DH": 1
+  }
+ }
+}
