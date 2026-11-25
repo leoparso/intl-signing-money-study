@@ -1,0 +1,6426 @@
+{
+ "Q1_mlb7": {
+  "n": 3987,
+  "lr": 8.0,
+  "df": 5,
+  "p": 0.15634117411906634,
+  "passed": false,
+  "by_group": {
+   "C": {
+    "n": 398,
+    "hits": 8,
+    "rate": 0.0201,
+    "ci": [
+     0.0102,
+     0.0392
+    ]
+   },
+   "LHP": {
+    "n": 409,
+    "hits": 8,
+    "rate": 0.0196,
+    "ci": [
+     0.0099,
+     0.0381
+    ]
+   },
+   "OF": {
+    "n": 686,
+    "hits": 23,
+    "rate": 0.0335,
+    "ci": [
+     0.0224,
+     0.0498
+    ]
+   },
+   "Other IF": {
+    "n": 254,
+    "hits": 10,
+    "rate": 0.0394,
+    "ci": [
+     0.0215,
+     0.0709
+    ]
+   },
+   "RHP": {
+    "n": 1717,
+    "hits": 60,
+    "rate": 0.0349,
+    "ci": [
+     0.0272,
+     0.0447
+    ]
+   },
+   "SS": {
+    "n": 523,
+    "hits": 32,
+    "rate": 0.0612,
+    "ci": [
+     0.0437,
+     0.0851
+    ]
+   }
+  },
+  "odds_vs_RHP_after_tier": {
+   "C": [
+    0.54,
+    0.25,
+    1.14
+   ],
+   "LHP": [
+    0.54,
+    0.25,
+    1.14
+   ],
+   "OF": [
+    0.65,
+    0.39,
+    1.1
+   ],
+   "Other IF": [
+    1.0,
+    0.5,
+    2.02
+   ],
+   "SS": [
+    1.04,
+    0.63,
+    1.7
+   ]
+  }
+ },
+ "Q1_fv50": {
+  "n": 5798,
+  "lr": 9.32,
+  "df": 5,
+  "p": 0.0968285823165242,
+  "passed": false,
+  "by_group": {
+   "C": {
+    "n": 576,
+    "hits": 12,
+    "rate": 0.0208,
+    "ci": [
+     0.012,
+     0.0361
+    ]
+   },
+   "LHP": {
+    "n": 578,
+    "hits": 2,
+    "rate": 0.0035,
+    "ci": [
+     0.0009,
+     0.0125
+    ]
+   },
+   "OF": {
+    "n": 962,
+    "hits": 16,
+    "rate": 0.0166,
+    "ci": [
+     0.0103,
+     0.0268
+    ]
+   },
+   "Other IF": {
+    "n": 357,
+    "hits": 2,
+    "rate": 0.0056,
+    "ci": [
+     0.0015,
+     0.0202
+    ]
+   },
+   "RHP": {
+    "n": 2544,
+    "hits": 10,
+    "rate": 0.0039,
+    "ci": [
+     0.0021,
+     0.0072
+    ]
+   },
+   "SS": {
+    "n": 781,
+    "hits": 23,
+    "rate": 0.0294,
+    "ci": [
+     0.0197,
+     0.0438
+    ]
+   }
+  },
+  "odds_vs_RHP_after_tier": {
+   "C": [
+    3.56,
+    1.45,
+    8.75
+   ],
+   "LHP": [
+    0.96,
+    0.2,
+    4.5
+   ],
+   "OF": [
+    1.35,
+    0.56,
+    3.26
+   ],
+   "Other IF": [
+    0.78,
+    0.16,
+    3.8
+   ],
+   "SS": [
+    1.67,
+    0.71,
+    3.95
+   ]
+  }
+ },
+ "Q1_share": {
+  "RHP": {
+   "share_signees": 0.431,
+   "share_mlb": 0.426,
+   "war7": 38.5
+  },
+  "LHP": {
+   "share_signees": 0.103,
+   "share_mlb": 0.057,
+   "war7": 3.0
+  },
+  "C": {
+   "share_signees": 0.1,
+   "share_mlb": 0.057,
+   "war7": 10.1
+  },
+  "SS": {
+   "share_signees": 0.131,
+   "share_mlb": 0.227,
+   "war7": 35.0
+  },
+  "Other IF": {
+   "share_signees": 0.064,
+   "share_mlb": 0.071,
+   "war7": 15.1
+  },
+  "OF": {
+   "share_signees": 0.172,
+   "share_mlb": 0.163,
+   "war7": 41.2
+  }
+ },
+ "Q2": {
+  "pitchers_fv50": {
+   "n": 135,
+   "hits": 8,
+   "improvement": -0.0575,
+   "ci": [
+    -0.1429,
+    0.0172
+   ],
+   "p": 0.9265,
+   "passed": false,
+   "or_per_inch": 1.343,
+   "or_per_10lb": 0.938,
+   "median_h_hit": 75.0,
+   "median_h_miss": 74.0,
+   "median_w_hit": 190.0,
+   "median_w_miss": 180.0
+  },
+  "pitchers_mlb7": {
+   "n": 85,
+   "hits": 26,
+   "improvement": -0.0321,
+   "ci": [
+    -0.0641,
+    0.0012
+   ],
+   "p": 0.97175,
+   "passed": false,
+   "or_per_inch": 1.048,
+   "or_per_10lb": 1.007,
+   "median_h_hit": 74.0,
+   "median_h_miss": 73.0,
+   "median_w_hit": 175.0,
+   "median_w_miss": 175.0
+  },
+  "hitters_fv50": {
+   "n": 394,
+   "hits": 50,
+   "improvement": 0.0019,
+   "ci": [
+    -0.0109,
+    0.0131
+   ],
+   "p": 0.375,
+   "passed": false,
+   "or_per_inch": 1.158,
+   "or_per_10lb": 1.043,
+   "median_h_hit": 73.0,
+   "median_h_miss": 72.0,
+   "median_w_hit": 180.0,
+   "median_w_miss": 175.0
+  },
+  "hitters_mlb7": {
+   "n": 221,
+   "hits": 47,
+   "improvement": -0.0082,
+   "ci": [
+    -0.0266,
+    0.0103
+   ],
+   "p": 0.8095,
+   "passed": false,
+   "or_per_inch": 0.892,
+   "or_per_10lb": 0.928,
+   "median_h_hit": 72.0,
+   "median_h_miss": 72.0,
+   "median_w_hit": 170.0,
+   "median_w_miss": 175.0
+  }
+ },
+ "size_coverage": {
+  "classes_16_19": 0.07429526994744386,
+  "classes_16_22": 0.08906949742909272,
+  "mlb7_with_size": 0.5244755244755245
+ },
+ "height_bands": {
+  "pitchers_fv50": {
+   "6'0\" or less": {
+    "n": 16,
+    "hits": 2,
+    "rate": 0.125,
+    "ci": [
+     0.035,
+     0.3602
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 44,
+    "hits": 2,
+    "rate": 0.0455,
+    "ci": [
+     0.0126,
+     0.1514
+    ]
+   },
+   "6'3\"-6'4\"": {
+    "n": 46,
+    "hits": 0,
+    "rate": 0.0,
+    "ci": [
+     -0.0,
+     0.0771
+    ]
+   },
+   "6'5\"+": {
+    "n": 29,
+    "hits": 4,
+    "rate": 0.1379,
+    "ci": [
+     0.055,
+     0.3056
+    ]
+   }
+  },
+  "hitters_fv50": {
+   "5'10\" or less": {
+    "n": 69,
+    "hits": 5,
+    "rate": 0.0725,
+    "ci": [
+     0.0313,
+     0.1587
+    ]
+   },
+   "5'11\"-6'0\"": {
+    "n": 149,
+    "hits": 15,
+    "rate": 0.1007,
+    "ci": [
+     0.062,
+     0.1595
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 132,
+    "hits": 18,
+    "rate": 0.1364,
+    "ci": [
+     0.088,
+     0.2053
+    ]
+   },
+   "6'3\"+": {
+    "n": 52,
+    "hits": 14,
+    "rate": 0.2692,
+    "ci": [
+     0.1677,
+     0.4025
+    ]
+   }
+  },
+  "pitchers_mlb7": {
+   "6'0\" or less": {
+    "n": 12,
+    "hits": 5,
+    "rate": 0.4167,
+    "ci": [
+     0.1933,
+     0.6805
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 30,
+    "hits": 7,
+    "rate": 0.2333,
+    "ci": [
+     0.1179,
+     0.4093
+    ]
+   },
+   "6'3\"-6'4\"": {
+    "n": 26,
+    "hits": 8,
+    "rate": 0.3077,
+    "ci": [
+     0.165,
+     0.4999
+    ]
+   },
+   "6'5\"+": {
+    "n": 17,
+    "hits": 6,
+    "rate": 0.3529,
+    "ci": [
+     0.1731,
+     0.587
+    ]
+   }
+  },
+  "hitters_mlb7": {
+   "5'10\" or less": {
+    "n": 30,
+    "hits": 9,
+    "rate": 0.3,
+    "ci": [
+     0.1666,
+     0.4788
+    ]
+   },
+   "5'11\"-6'0\"": {
+    "n": 94,
+    "hits": 22,
+    "rate": 0.234,
+    "ci": [
+     0.1599,
+     0.329
+    ]
+   },
+   "6'1\"-6'2\"": {
+    "n": 73,
+    "hits": 13,
+    "rate": 0.1781,
+    "ci": [
+     0.1071,
+     0.2812
+    ]
+   },
+   "6'3\"+": {
+    "n": 29,
+    "hits": 5,
+    "rate": 0.1724,
+    "ci": [
+     0.076,
+     0.3455
+    ]
+   }
+  }
+ },
+ "size_profile": {
+  "pitchers": {
+   "all_n": 85,
+   "all_h": 74.0,
+   "all_w": 175.0,
+   "mlb_n": 26,
+   "mlb_h": 74.0,
+   "mlb_w": 175.0,
+   "mlb_h_iqr": [
+    72.25,
+    75.0
+   ],
+   "mlb_w_iqr": [
+    165.75,
+    188.75
+   ]
+  },
+  "hitters": {
+   "all_n": 226,
+   "all_h": 72.0,
+   "all_w": 175.0,
+   "mlb_n": 49,
+   "mlb_h": 72.0,
+   "mlb_w": 170.0,
+   "mlb_h_iqr": [
+    71.0,
+    73.0
+   ],
+   "mlb_w_iqr": [
+    160.0,
+    185.0
+   ]
+  }
+ },
+ "size_points": [
+  [
+   "Norge Ruiz",
+   2016,
+   71.0,
+   185.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Vladimir Gutierrez",
+   2016,
+   73.0,
+   172.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Christopher Morel",
+   2016,
+   72.0,
+   140.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Jojanse Torres",
+   2017,
+   74.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Stiward Aquino",
+   2016,
+   78.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Randy Arozarena",
+   2016,
+   71.0,
+   195.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Lazaro Armenteros",
+   2016,
+   72.0,
+   182.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Marcos Brito",
+   2016,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Yerdel Vargas",
+   2016,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Kevin Maitan",
+   2016,
+   74.0,
+   190.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Livan Soto",
+   2016,
+   72.0,
+   160.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Yunior Severino",
+   2016,
+   73.0,
+   181.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Alfredo Rodriguez",
+   2016,
+   72.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Johan Oviedo",
+   2016,
+   78.0,
+   275.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Luis Santana",
+   2016,
+   68.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Adrian Morejon",
+   2016,
+   71.0,
+   165.0,
+   true,
+   true,
+   true,
+   "LHP"
+  ],
+  [
+   "Jonatan Machado",
+   2016,
+   69.0,
+   155.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Iv\u00e1n Herrera",
+   2016,
+   72.0,
+   180.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Jonathan Lopez",
+   2016,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Anibal Sierra",
+   2016,
+   73.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jorge Ona",
+   2016,
+   73.0,
+   220.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Freudis Nova",
+   2016,
+   73.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Victor Garcia",
+   2016,
+   75.0,
+   235.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jeisson Rosario",
+   2016,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "David Garc\u00eda",
+   2016,
+   70.0,
+   211.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Luis Almanzar",
+   2016,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Yasel Antuna",
+   2016,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Luis Garc\u00eda Jr.",
+   2016,
+   72.0,
+   180.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "George Valera",
+   2017,
+   72.0,
+   190.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Jose O. Lopez",
+   2018,
+   70.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ronald Bola\u00f1os",
+   2016,
+   75.0,
+   200.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Eric Pardinho",
+   2017,
+   69.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Cionel P\u00e9rez",
+   2016,
+   71.0,
+   170.0,
+   true,
+   true,
+   true,
+   "LHP"
+  ],
+  [
+   "Yanio Perez",
+   2016,
+   74.0,
+   225.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Michell Miliano",
+   2016,
+   75.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Gabriel Arias",
+   2016,
+   73.0,
+   180.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Jordy Barley",
+   2016,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Yefri Del Rosario",
+   2016,
+   74.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Ignacio Feliz",
+   2016,
+   73.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Yenci Pena",
+   2016,
+   74.0,
+   193.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jos\u00e9 S\u00e1nchez",
+   2016,
+   71.0,
+   197.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Carlos Hern\u00e1ndez",
+   2016,
+   76.0,
+   175.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Alexander Campos",
+   2016,
+   72.0,
+   178.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Gerardo Carrillo",
+   2016,
+   72.0,
+   154.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Otto Lopez",
+   2016,
+   70.0,
+   160.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Geraldo Perdomo",
+   2016,
+   74.0,
+   184.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Jos\u00e9 Devers",
+   2016,
+   72.0,
+   155.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Roansy Contreras",
+   2016,
+   72.0,
+   175.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Luis Pati\u00f1o",
+   2016,
+   72.0,
+   150.0,
+   true,
+   true,
+   true,
+   "RHP"
+  ],
+  [
+   "Juan Then",
+   2016,
+   73.0,
+   155.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Marcos Gonzalez",
+   2016,
+   71.0,
+   195.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Alexander Canario",
+   2016,
+   73.0,
+   165.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Wenceel P\u00e9rez",
+   2016,
+   71.0,
+   170.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Deury Carrasco",
+   2016,
+   69.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Elvis Luciano",
+   2016,
+   74.0,
+   184.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Tucupita Marcano",
+   2016,
+   72.0,
+   165.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Yoendrys G\u00f3mez",
+   2016,
+   75.0,
+   175.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Yolki Pena",
+   2016,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jean Carmona",
+   2016,
+   73.0,
+   183.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jairo Solis",
+   2016,
+   74.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Francisco Morales",
+   2016,
+   76.0,
+   185.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Carlos Vargas",
+   2016,
+   75.0,
+   180.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Michel Baez",
+   2016,
+   80.0,
+   220.0,
+   true,
+   true,
+   true,
+   "RHP"
+  ],
+  [
+   "Luis Robert Jr.",
+   2016,
+   75.0,
+   185.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Victor Mesa",
+   2018,
+   71.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Luis Romero",
+   2016,
+   74.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Robinson Ortiz",
+   2016,
+   72.0,
+   180.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Juan Carlos Negret",
+   2016,
+   73.0,
+   190.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jos\u00e9 Barrero",
+   2016,
+   74.0,
+   175.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Wander Franco",
+   2017,
+   70.0,
+   160.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Kristian Robinson",
+   2017,
+   75.0,
+   195.0,
+   false,
+   true,
+   false,
+   "OF"
+  ],
+  [
+   "Aaron Bracho",
+   2017,
+   71.0,
+   174.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Fadriel Cruz",
+   2017,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Alvaro Gonzalez",
+   2017,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Trent Deveaux",
+   2017,
+   74.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ynmanol Mari\u00f1ez",
+   2017,
+   72.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Carlos Rodr\u00edguez",
+   2017,
+   70.0,
+   150.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Brayan Rocchio",
+   2017,
+   70.0,
+   150.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Jos\u00e9 Tena",
+   2017,
+   69.0,
+   160.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Jelfry Marte",
+   2017,
+   70.0,
+   140.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Everson Pereira",
+   2017,
+   72.0,
+   165.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Luis Garc\u00eda",
+   2017,
+   71.0,
+   195.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Julio Rodr\u00edguez",
+   2017,
+   75.0,
+   205.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Ronny Mauricio",
+   2017,
+   72.0,
+   160.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Danny Diaz",
+   2017,
+   73.0,
+   170.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Roberto Chirinos",
+   2017,
+   71.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Larry Ernesto",
+   2017,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Miguel Hiraldo",
+   2017,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Adrian Hernandez",
+   2017,
+   69.0,
+   210.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Keyber Rodriguez",
+   2017,
+   69.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Antoni Flores",
+   2017,
+   73.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Juan Querecuto",
+   2017,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Damian Mendoza",
+   2017,
+   73.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Luis Verdugo",
+   2017,
+   72.0,
+   172.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "D'Shawn Knowles",
+   2017,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Sadrac Franco",
+   2017,
+   72.0,
+   155.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Adanson Cruz",
+   2017,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Joerlin De Los Santos",
+   2017,
+   71.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Brayan Perez",
+   2017,
+   72.0,
+   170.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Eddy Diaz",
+   2017,
+   71.0,
+   171.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Ezequiel Duran",
+   2017,
+   71.0,
+   185.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Manny Ramirez",
+   2017,
+   71.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Diosbel Arias",
+   2017,
+   74.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Leo Jim\u00e9nez",
+   2017,
+   71.0,
+   170.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Cristian Heredia",
+   2017,
+   75.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ji Hwan Bae",
+   2017,
+   73.0,
+   170.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Daysbel Hern\u00e1ndez",
+   2017,
+   72.0,
+   220.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Miguel Vargas",
+   2017,
+   75.0,
+   200.0,
+   false,
+   false,
+   true,
+   "Other IF"
+  ],
+  [
+   "Fabian Pertuz",
+   2017,
+   72.0,
+   156.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Alejandro Melean",
+   2017,
+   72.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Yohanse Morel",
+   2017,
+   72.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Gilberto Jimenez",
+   2017,
+   71.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jhon Solarte",
+   2017,
+   72.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Brayan Bello",
+   2017,
+   73.0,
+   170.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Alexfri Planez",
+   2017,
+   74.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Andres Melendez",
+   2017,
+   70.0,
+   170.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Jorge Barrosa",
+   2017,
+   69.0,
+   155.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Jhosmer Alvarez",
+   2017,
+   73.0,
+   155.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Osleivis Basabe",
+   2017,
+   73.0,
+   165.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Randy Florentino",
+   2017,
+   71.0,
+   175.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Ronny Rojas",
+   2017,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Juan Pie",
+   2017,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Edgardo Rodriguez",
+   2017,
+   72.0,
+   207.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Josh Gessner",
+   2018,
+   73.0,
+   205.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Ezequiel Tovar",
+   2017,
+   72.0,
+   162.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Luis Toribio",
+   2017,
+   73.0,
+   210.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Neyfy Castillo",
+   2017,
+   75.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Carlos Aguiar",
+   2017,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ronny Henriquez",
+   2017,
+   70.0,
+   155.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Daniel Castillo",
+   2017,
+   71.0,
+   150.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Reivaj Garcia",
+   2017,
+   71.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Juan Sanchez",
+   2017,
+   74.0,
+   165.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Victor Munoz",
+   2017,
+   76.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jhoan Paulino",
+   2017,
+   73.0,
+   176.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Anthony Garcia",
+   2017,
+   77.0,
+   205.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Federico Polanco",
+   2017,
+   70.0,
+   155.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Miguel Marte",
+   2017,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jesus Gonzalez",
+   2017,
+   70.0,
+   160.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Angel Rojas",
+   2017,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Liover Peguero",
+   2017,
+   73.0,
+   160.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Alexander Ovalles",
+   2017,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Alberto Figuereo",
+   2017,
+   69.0,
+   145.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Kai-Wei Teng",
+   2017,
+   76.0,
+   260.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Carlos De La Cruz",
+   2017,
+   80.0,
+   210.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Madison Santos",
+   2017,
+   70.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Johan Rojas",
+   2017,
+   73.0,
+   170.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Raimfer Salinas",
+   2017,
+   72.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Julio Carreras",
+   2017,
+   73.0,
+   166.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Keithron Moss",
+   2017,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Antonio Cabello",
+   2017,
+   70.0,
+   160.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Wilderd Pati\u00f1o",
+   2017,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "J.P. Mart\u00ednez",
+   2017,
+   71.0,
+   190.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Justin Martinez",
+   2017,
+   75.0,
+   180.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Carlos Duran",
+   2017,
+   79.0,
+   250.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Stir Candelario",
+   2017,
+   72.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Pedro Martinez",
+   2017,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Ronaiker Palma",
+   2017,
+   69.0,
+   160.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Andy Pages",
+   2017,
+   73.0,
+   180.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Heriberto Hern\u00e1ndez",
+   2017,
+   73.0,
+   180.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Junior Santos",
+   2017,
+   80.0,
+   218.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Diego Cartaya",
+   2018,
+   74.0,
+   200.0,
+   false,
+   true,
+   false,
+   "C"
+  ],
+  [
+   "Marco Luciano",
+   2018,
+   74.0,
+   180.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Misael Urbina",
+   2018,
+   72.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Orelvis Martinez",
+   2018,
+   73.0,
+   190.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Richard Gallardo",
+   2018,
+   73.0,
+   187.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Gabriel Rodriguez",
+   2018,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Noelvi Marte",
+   2018,
+   73.0,
+   180.0,
+   false,
+   true,
+   true,
+   "Other IF"
+  ],
+  [
+   "Starlyn Castillo",
+   2018,
+   72.0,
+   210.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Sandy Gaston",
+   2018,
+   72.0,
+   190.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Antonio Gomez",
+   2018,
+   74.0,
+   205.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Francisco Alvarez",
+   2018,
+   71.0,
+   220.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Jose De La Cruz",
+   2018,
+   73.0,
+   195.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Junior Sanquintin",
+   2018,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Alvin Guzman",
+   2018,
+   73.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Eduarqui Fernandez",
+   2018,
+   74.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Adinso Reyes",
+   2018,
+   73.0,
+   195.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Eduardo Garcia",
+   2018,
+   74.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Kevin Alc\u00e1ntara",
+   2018,
+   77.0,
+   175.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Jose Rodriguez",
+   2018,
+   72.0,
+   185.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Alejandro Pie",
+   2018,
+   76.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Eduardo Lopez",
+   2018,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Branlyn Jaraba",
+   2018,
+   74.0,
+   200.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Freddy Valdez",
+   2018,
+   75.0,
+   210.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Osiel Rodriguez",
+   2018,
+   75.0,
+   205.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Luis Matos",
+   2018,
+   71.0,
+   160.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Alexander Ramirez",
+   2018,
+   74.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Denny Larrondo",
+   2018,
+   74.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jerming Rosario",
+   2018,
+   73.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jairo Pomares",
+   2018,
+   73.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Omar Florentino",
+   2018,
+   69.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Abraham Calzadilla",
+   2018,
+   73.0,
+   165.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Malcom Nu\u00f1ez",
+   2018,
+   71.0,
+   205.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Fernando Ortega",
+   2018,
+   76.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Sergio Campana",
+   2018,
+   73.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Diomede Sierra",
+   2018,
+   73.0,
+   160.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Jose Bonilla",
+   2019,
+   72.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Rafael Morel",
+   2018,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Luisangel Acu\u00f1a",
+   2018,
+   70.0,
+   155.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Breidy Encarnaci\u00f3n",
+   2018,
+   75.0,
+   185.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jeremy De La Rosa",
+   2018,
+   73.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Cristhian Rodriguez",
+   2018,
+   73.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jonatan Clase",
+   2018,
+   68.0,
+   150.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Jeferson Espinal",
+   2018,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Albert Feliz",
+   2018,
+   74.0,
+   220.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Octavio Becerra",
+   2019,
+   75.0,
+   209.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Naysbel Marcano",
+   2018,
+   72.0,
+   175.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Bryan Gonzalez",
+   2018,
+   75.0,
+   220.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Eduardo Vaughan",
+   2018,
+   75.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Yohendrick Pi\u00f1ango",
+   2018,
+   71.0,
+   185.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Luis Mey",
+   2018,
+   74.0,
+   160.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Endy Rodr\u00edguez",
+   2018,
+   72.0,
+   170.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Bryan Ramos",
+   2018,
+   74.0,
+   190.0,
+   false,
+   false,
+   true,
+   "Other IF"
+  ],
+  [
+   "Wilmin Candelario",
+   2018,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Brainer Bonaci",
+   2018,
+   70.0,
+   140.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Samuel Valerio",
+   2018,
+   76.0,
+   220.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Alex De Jesus",
+   2018,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Alan Mejia",
+   2017,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Alexander Vargas",
+   2018,
+   72.0,
+   150.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Jordany Ventura",
+   2018,
+   72.0,
+   165.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Neraldo Catalina",
+   2018,
+   78.0,
+   202.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Gabriel Tapia",
+   2018,
+   73.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Darryl Collins",
+   2018,
+   74.0,
+   200.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Hyun-il Choi",
+   2018,
+   74.0,
+   200.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Omar Hernandez",
+   2018,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Jesus Parra",
+   2018,
+   74.0,
+   184.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Brayan Buelvas",
+   2018,
+   71.0,
+   155.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Dayro Perez",
+   2018,
+   74.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Osvaldo Gavilan",
+   2018,
+   70.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "J.J. D'Orazio",
+   2018,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Maikol Escotto",
+   2018,
+   71.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Mauro Bonifacio",
+   2018,
+   79.0,
+   226.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Milkar Perez",
+   2018,
+   71.0,
+   173.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Cristopher Cruz",
+   2018,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Andy Maldonado",
+   2018,
+   76.0,
+   195.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Alexander Mojica",
+   2018,
+   73.0,
+   225.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Marcos Cabrera",
+   2018,
+   75.0,
+   189.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Juan Jerez",
+   2018,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Charlis Aquino",
+   2018,
+   74.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Audry Lugo",
+   2018,
+   71.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Rodolfo Nolasco",
+   2018,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Luis Tejeda",
+   2018,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Aneudy Cortorreal",
+   2018,
+   75.0,
+   200.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Victor Mesa Jr.",
+   2018,
+   71.0,
+   175.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Yoljeldriz Diaz",
+   2018,
+   71.0,
+   165.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Benyamin Bailey",
+   2018,
+   76.0,
+   225.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Natanael Garabitos",
+   2018,
+   72.0,
+   185.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Alan Ramirez",
+   2018,
+   74.0,
+   160.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Jasson Dom\u00ednguez",
+   2019,
+   71.0,
+   194.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Luis Rodriguez",
+   2019,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Bayron Lora",
+   2019,
+   76.0,
+   220.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Erick Pe\u00f1a",
+   2019,
+   75.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ronnier Quintero",
+   2019,
+   72.0,
+   175.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Emmanuel Rodriguez",
+   2019,
+   70.0,
+   165.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Adael Amador",
+   2019,
+   72.0,
+   160.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Kevin Made",
+   2019,
+   73.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Dauri Lorenzo",
+   2019,
+   73.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Maximo Acosta",
+   2019,
+   69.0,
+   145.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Arol Vera",
+   2019,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Robert Puason",
+   2019,
+   75.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Luis Medina",
+   2019,
+   74.0,
+   168.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ismael Mena",
+   2019,
+   75.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jose Salas",
+   2019,
+   73.0,
+   150.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Andry Lara",
+   2019,
+   75.0,
+   210.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Jhon Diaz",
+   2019,
+   71.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Kristian Cardozo",
+   2019,
+   73.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Brayan Medina",
+   2019,
+   74.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Cristopher Cruz",
+   2019,
+   74.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jose Pastrano",
+   2019,
+   71.0,
+   145.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Reginald Preciado",
+   2019,
+   76.0,
+   180.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Esmerlin Vinicio",
+   2019,
+   72.0,
+   165.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Rikelbin De Castro",
+   2019,
+   71.0,
+   150.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Junior Sanchez",
+   2019,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Alex Ram\u00edrez",
+   2019,
+   75.0,
+   175.0,
+   false,
+   true,
+   false,
+   "OF"
+  ],
+  [
+   "Yiddi Cappe",
+   2021,
+   75.0,
+   175.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Adrian Placencia",
+   2019,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jiter Heredia",
+   2019,
+   71.0,
+   180.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Luis Ortiz",
+   2019,
+   75.0,
+   195.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Juan Chacon",
+   2019,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Luis Perales",
+   2019,
+   73.0,
+   168.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Michel Triana",
+   2019,
+   74.0,
+   225.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Roberto Campos",
+   2019,
+   75.0,
+   200.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Yolbert Sanchez",
+   2019,
+   74.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Yeiner Fernandez",
+   2019,
+   70.0,
+   175.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Alejandro Hidalgo",
+   2019,
+   73.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Eury P\u00e9rez",
+   2019,
+   81.0,
+   190.0,
+   true,
+   true,
+   true,
+   "RHP"
+  ],
+  [
+   "Ian Lewis Jr.",
+   2019,
+   70.0,
+   150.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Hedbert Perez",
+   2019,
+   71.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jeferson Quero",
+   2019,
+   71.0,
+   180.0,
+   false,
+   false,
+   true,
+   "C"
+  ],
+  [
+   "Sem Robberse",
+   2019,
+   73.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Luis Vizcaino",
+   2019,
+   76.0,
+   200.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Zion Bannister",
+   2019,
+   75.0,
+   187.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jose Corniell",
+   2019,
+   74.0,
+   165.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Joaquin Tejada",
+   2019,
+   71.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Luis Gutierrez",
+   2019,
+   71.0,
+   170.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Aeverson Arteaga",
+   2019,
+   71.0,
+   145.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Manuel Mercedes",
+   2019,
+   75.0,
+   162.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jose Pena",
+   2019,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Roismar Quintana",
+   2019,
+   72.0,
+   205.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Estiven Machado",
+   2019,
+   70.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Robert Dominguez",
+   2019,
+   76.0,
+   200.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "C\u00e9sar Prieto",
+   2022,
+   68.0,
+   170.0,
+   false,
+   false,
+   true,
+   "Other IF"
+  ],
+  [
+   "Emiliano Teodo",
+   2019,
+   73.0,
+   165.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Ruben Salinas",
+   2019,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Alexander Alberto",
+   2019,
+   80.0,
+   190.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Daniel Palencia",
+   2019,
+   70.0,
+   203.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Yhoswar Garcia",
+   2019,
+   72.0,
+   150.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Dyan Jorge",
+   2022,
+   74.0,
+   160.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Pedro Le\u00f3n",
+   2021,
+   69.0,
+   200.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Wilman Diaz",
+   2021,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Carlos Colmenarez",
+   2021,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Armando Cruz",
+   2021,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Cristian Hern\u00e1ndez",
+   2021,
+   73.0,
+   170.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Cristian Santana",
+   2021,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Danny De Andrade",
+   2021,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Shalin Polanco",
+   2021,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Daniel Vazquez",
+   2021,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jesus Galiz",
+   2021,
+   73.0,
+   180.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Rickardo Perez",
+   2021,
+   71.0,
+   172.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Jhonny Piron",
+   2021,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Pedro Pineda",
+   2021,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jackson Chourio",
+   2021,
+   73.0,
+   165.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Victor Acosta",
+   2021,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Miguel Bleis",
+   2021,
+   74.0,
+   170.0,
+   false,
+   true,
+   false,
+   "OF"
+  ],
+  [
+   "Norge Vera",
+   2021,
+   75.0,
+   185.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Diego Velasquez",
+   2021,
+   73.0,
+   150.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Angel Genao",
+   2021,
+   71.0,
+   150.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Fran Alduey",
+   2021,
+   67.0,
+   140.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Ariel Almonte",
+   2021,
+   76.0,
+   219.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Abel Bastidas",
+   2021,
+   73.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Manuel Beltre",
+   2021,
+   71.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Denzer Guzman",
+   2021,
+   74.0,
+   175.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Maikol Hern\u00e1ndez",
+   2021,
+   75.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Victor Lizarraga",
+   2021,
+   76.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Daniel Guilarte",
+   2021,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Mois\u00e9s Ballesteros",
+   2021,
+   67.0,
+   230.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Robert Lopez",
+   2021,
+   70.0,
+   150.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Samuel Basallo",
+   2021,
+   75.0,
+   230.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Yemal Flores",
+   2021,
+   73.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Samuel Zavala",
+   2021,
+   73.0,
+   190.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Malvin Valdez",
+   2021,
+   74.0,
+   195.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Willy Fanas",
+   2022,
+   74.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Yeison Morrobel",
+   2021,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Daniel Montesino",
+   2021,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ambioris Tavarez",
+   2021,
+   72.0,
+   168.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Starlin Aguilar",
+   2021,
+   70.0,
+   180.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Gabriel Gonzalez",
+   2021,
+   71.0,
+   180.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Danyer Cueva",
+   2021,
+   73.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Yeferson Tineo",
+   2021,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Enderso Lira",
+   2021,
+   74.0,
+   195.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Hendry Mendez",
+   2021,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Edwin N\u00fa\u00f1ez",
+   2019,
+   75.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Yosy Galan",
+   2019,
+   76.0,
+   200.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ismael Agreda",
+   2021,
+   72.0,
+   150.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Diego Benitez",
+   2022,
+   73.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Rosman Verdugo",
+   2022,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Kevin Guerrero",
+   2021,
+   76.0,
+   190.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ronald Hernandez",
+   2021,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Gerelmi Maldonado",
+   2021,
+   74.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Angel Arevalo",
+   2021,
+   70.0,
+   182.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Leo Bernal",
+   2021,
+   72.0,
+   200.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Christian Avendano",
+   2021,
+   72.0,
+   168.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Miguel Ullola",
+   2021,
+   73.0,
+   184.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Maximo Martinez",
+   2021,
+   74.0,
+   205.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Rayne Doncon",
+   2021,
+   74.0,
+   176.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Thayron Liranzo",
+   2021,
+   75.0,
+   195.0,
+   false,
+   true,
+   false,
+   "C"
+  ],
+  [
+   "Juan Alonso",
+   2021,
+   72.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Yhoangel Aponte",
+   2021,
+   71.0,
+   190.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Reynardo Cruz",
+   2021,
+   74.0,
+   165.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Leo Balcazar",
+   2021,
+   70.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Carlos Jorge",
+   2021,
+   69.0,
+   155.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Luis Castillo",
+   2021,
+   71.0,
+   205.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jadher Areinamo",
+   2021,
+   68.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Bradgley Rodriguez",
+   2021,
+   73.0,
+   160.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Luis Ravelo",
+   2021,
+   73.0,
+   187.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jedixson Paez",
+   2021,
+   73.0,
+   170.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Gleider Figuereo",
+   2021,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Rafael Cruz",
+   2021,
+   73.0,
+   200.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Fredy Michel",
+   2021,
+   70.0,
+   154.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Daniel Vasquez",
+   2021,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "H\u00e9ctor Rodr\u00edguez",
+   2021,
+   68.0,
+   186.0,
+   false,
+   false,
+   true,
+   "Other IF"
+  ],
+  [
+   "Joel D\u00edaz",
+   2021,
+   73.0,
+   208.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Pedro Ram\u00edrez",
+   2021,
+   69.0,
+   165.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Juan Pinto",
+   2021,
+   74.0,
+   165.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Jose Fernandez",
+   2021,
+   75.0,
+   165.0,
+   false,
+   false,
+   true,
+   "SS"
+  ],
+  [
+   "Bryant Betancourt",
+   2021,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Bryan Perez",
+   2021,
+   74.0,
+   167.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jordy Vargas",
+   2021,
+   75.0,
+   153.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Yilber D\u00edaz",
+   2021,
+   72.0,
+   190.0,
+   true,
+   true,
+   true,
+   "RHP"
+  ],
+  [
+   "Ricardo Yan",
+   2021,
+   76.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Yondrei Rojas",
+   2021,
+   70.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Fidel Montero",
+   2021,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Keythel Key",
+   2021,
+   75.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Edgar Quero",
+   2021,
+   71.0,
+   170.0,
+   false,
+   true,
+   true,
+   "C"
+  ],
+  [
+   "Walbert Ure\u00f1a",
+   2021,
+   72.0,
+   170.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Roque Salinas",
+   2022,
+   67.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Hao-Yu Lee",
+   2021,
+   70.0,
+   190.0,
+   false,
+   false,
+   true,
+   "Other IF"
+  ],
+  [
+   "Jorge Ruiz",
+   2021,
+   70.0,
+   165.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Luis Serna",
+   2021,
+   71.0,
+   162.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Luis Germ\u00e1n",
+   2021,
+   74.0,
+   160.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jaison Chourio",
+   2022,
+   74.0,
+   165.0,
+   false,
+   true,
+   false,
+   "OF"
+  ],
+  [
+   "Angel Benitez",
+   2021,
+   79.0,
+   204.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Reynaldo Yean",
+   2021,
+   76.0,
+   240.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Wilfredo Lara",
+   2021,
+   70.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Loidel Chapelli",
+   2022,
+   69.0,
+   187.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Cristhian Vaquero",
+   2022,
+   75.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ryan Reckley",
+   2022,
+   70.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Raimon Gomez",
+   2021,
+   74.0,
+   230.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Roderick Arias",
+   2022,
+   73.0,
+   180.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "Ricky Cabrera",
+   2022,
+   72.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "William Bergolla Jr.",
+   2022,
+   71.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Anthony Gutierrez",
+   2022,
+   75.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Samuel Munoz",
+   2022,
+   73.0,
+   190.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Yordany De Los Santos",
+   2022,
+   73.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Lazaro Montes",
+   2022,
+   76.0,
+   205.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Tony Blanco Jr.",
+   2022,
+   77.0,
+   230.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Javier Osorio",
+   2022,
+   72.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jonathan Mej\u00eda",
+   2022,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Simon Juan",
+   2022,
+   72.0,
+   195.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Alexis Hernandez",
+   2022,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Freili Encarnacion",
+   2022,
+   74.0,
+   182.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jhonny Severino",
+   2022,
+   74.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Braylin Tavera",
+   2022,
+   75.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Johan Barrios",
+   2022,
+   73.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Yendry Rojas",
+   2022,
+   73.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Juan Olmos",
+   2022,
+   74.0,
+   175.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Luis Rodriguez",
+   2022,
+   72.0,
+   210.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Jose De Jesus",
+   2022,
+   73.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Nelson Rada",
+   2022,
+   74.0,
+   175.0,
+   false,
+   true,
+   false,
+   "OF"
+  ],
+  [
+   "Jarlin Susana",
+   2022,
+   78.0,
+   230.0,
+   true,
+   true,
+   false,
+   "RHP"
+  ],
+  [
+   "Anthuan Valencia",
+   2022,
+   68.0,
+   177.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Luis Meza",
+   2022,
+   71.0,
+   185.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Johanfran Garcia",
+   2022,
+   71.0,
+   196.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Yilber Herrera",
+   2022,
+   72.0,
+   155.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Abdias De La Cruz",
+   2022,
+   75.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Accimias Morales",
+   2022,
+   77.0,
+   190.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Randy De Jesus",
+   2022,
+   76.0,
+   239.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Victor Izturis",
+   2022,
+   71.0,
+   199.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Michael Arroyo",
+   2022,
+   68.0,
+   160.0,
+   false,
+   true,
+   true,
+   "SS"
+  ],
+  [
+   "Kenni Gomez",
+   2022,
+   71.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Adan Sanchez",
+   2022,
+   72.0,
+   205.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Yoffry Solano",
+   2022,
+   70.0,
+   155.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Henry Ramos",
+   2022,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Leandro Arias",
+   2022,
+   73.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Martin Gonzalez",
+   2022,
+   70.0,
+   165.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Esmith Pineda",
+   2022,
+   71.0,
+   196.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Fraymi De Leon",
+   2022,
+   70.0,
+   155.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jorge Marcheco",
+   2021,
+   73.0,
+   197.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jose Montero",
+   2021,
+   74.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jose Fleury",
+   2021,
+   72.0,
+   185.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Marcos Torres",
+   2022,
+   71.0,
+   163.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Fernando Perez",
+   2022,
+   75.0,
+   185.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Reylin Perez",
+   2022,
+   74.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Carlos Pacheco",
+   2022,
+   70.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Marcos Herrera",
+   2022,
+   74.0,
+   182.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Nixon Encarnacion",
+   2022,
+   74.0,
+   178.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Aroon Escobar",
+   2022,
+   71.0,
+   180.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Carlos Sanchez",
+   2022,
+   72.0,
+   177.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Cesar Gonzalez",
+   2022,
+   74.0,
+   165.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Douglas Glod",
+   2022,
+   70.0,
+   185.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Ruben Santana",
+   2022,
+   70.0,
+   170.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Dario Laverde",
+   2022,
+   70.0,
+   190.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Kelvin Hidalgo",
+   2022,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Capri Ortiz",
+   2022,
+   72.0,
+   150.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Jorgelys Mota",
+   2022,
+   75.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Richard Ramirez",
+   2022,
+   73.0,
+   160.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Cristofer Torin",
+   2022,
+   70.0,
+   155.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Rafael Ramirez Jr.",
+   2022,
+   72.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Derek Bernard",
+   2022,
+   72.0,
+   190.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Yerald Nin",
+   2022,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Estuar Suero",
+   2022,
+   77.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Francis Pe\u00f1a",
+   2022,
+   73.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Won-Bin Cho",
+   2022,
+   75.0,
+   200.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Luis Baez",
+   2022,
+   73.0,
+   205.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Sabier Marte",
+   2022,
+   77.0,
+   167.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Roynier Hernandez",
+   2022,
+   71.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Enrique Segura",
+   2022,
+   75.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Enmanuel Tejeda",
+   2022,
+   71.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Wellington Aracena",
+   2022,
+   75.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Dangelo Sarmiento",
+   2022,
+   72.0,
+   160.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Waner Luciano",
+   2022,
+   73.0,
+   185.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Mairoshendrick Martinus",
+   2022,
+   75.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jes\u00fas  B\u00e1ez",
+   2022,
+   69.0,
+   180.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jansel Luis",
+   2022,
+   73.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Alexander Albertus",
+   2022,
+   73.0,
+   176.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Raimy Rodriguez",
+   2022,
+   73.0,
+   185.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Luis Cohen",
+   2022,
+   72.0,
+   172.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Luis Lara",
+   2022,
+   67.0,
+   155.0,
+   false,
+   false,
+   true,
+   "OF"
+  ],
+  [
+   "Juan Perez",
+   2022,
+   71.0,
+   193.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Juan Baez",
+   2022,
+   69.0,
+   185.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Yeremy Cabrera",
+   2022,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Aneudi Escanio",
+   2022,
+   69.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Jose Rodriguez",
+   2022,
+   74.0,
+   196.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jeral Perez",
+   2022,
+   72.0,
+   205.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Marvin Alcantara",
+   2022,
+   70.0,
+   157.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Oswaldo Osorio",
+   2022,
+   73.0,
+   171.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Maikel Hernandez",
+   2022,
+   73.0,
+   184.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jose Alpuria",
+   2022,
+   74.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Luichi Casilla",
+   2022,
+   74.0,
+   200.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Omar Gonzalez",
+   2022,
+   76.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Nikau Pouaka-Grego",
+   2022,
+   70.0,
+   175.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Echedry Vargas",
+   2022,
+   71.0,
+   170.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Thomas Sosa",
+   2022,
+   76.0,
+   160.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jefferson Rojas",
+   2022,
+   70.0,
+   165.0,
+   false,
+   true,
+   false,
+   "SS"
+  ],
+  [
+   "John Cruz",
+   2022,
+   74.0,
+   171.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Roni Cabrera",
+   2022,
+   73.0,
+   175.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Enderson Delgado",
+   2022,
+   71.0,
+   184.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Alberto Hernandez",
+   2022,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Josue Brice\u00f1o",
+   2022,
+   76.0,
+   220.0,
+   false,
+   true,
+   false,
+   "C"
+  ],
+  [
+   "Josue De Paula",
+   2022,
+   75.0,
+   200.0,
+   false,
+   true,
+   true,
+   "OF"
+  ],
+  [
+   "Alberto Barriga",
+   2022,
+   69.0,
+   155.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Santiago Suarez",
+   2022,
+   74.0,
+   175.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Yu-Min Lin",
+   2021,
+   71.0,
+   160.0,
+   true,
+   false,
+   false,
+   "LHP"
+  ],
+  [
+   "Christian Montes De Oca",
+   2021,
+   76.0,
+   230.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Juan De La Cruz",
+   2022,
+   75.0,
+   180.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Carlos Lagrange",
+   2022,
+   79.0,
+   220.0,
+   true,
+   true,
+   false,
+   "RHP"
+  ],
+  [
+   "Adrian Acosta",
+   2022,
+   71.0,
+   165.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Ryan Burrowes",
+   2022,
+   74.0,
+   170.0,
+   false,
+   false,
+   false,
+   "SS"
+  ],
+  [
+   "Ovis Portes",
+   2022,
+   76.0,
+   170.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Richard Fernandez",
+   2022,
+   73.0,
+   190.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Antony Peguero",
+   2022,
+   73.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Marco Vargas",
+   2022,
+   72.0,
+   170.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ],
+  [
+   "Jesus Lopez",
+   2022,
+   73.0,
+   180.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Yunior Marte",
+   2022,
+   77.0,
+   210.0,
+   true,
+   false,
+   true,
+   "RHP"
+  ],
+  [
+   "Byron Chourio",
+   2022,
+   74.0,
+   171.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Jose Gerardo",
+   2022,
+   72.0,
+   180.0,
+   false,
+   false,
+   false,
+   "OF"
+  ],
+  [
+   "Hyungchan Um",
+   2022,
+   73.0,
+   190.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Joel Hurtado",
+   2022,
+   74.0,
+   220.0,
+   true,
+   false,
+   false,
+   "RHP"
+  ],
+  [
+   "Jancel Villarroel",
+   2022,
+   68.0,
+   176.0,
+   false,
+   false,
+   false,
+   "C"
+  ],
+  [
+   "Carlos Caro",
+   2022,
+   71.0,
+   160.0,
+   false,
+   false,
+   false,
+   "Other IF"
+  ]
+ ],
+ "Q3": {
+  "n": 4186,
+  "auc_fullseason_s3": 0.838,
+  "auc_tier": 0.604,
+  "auc_out_of_dsl_s2": 0.773,
+  "diff": 0.235,
+  "ci": [
+   0.194,
+   0.272
+  ],
+  "p": 0.0,
+  "passed": true
+ },
+ "funnel": [
+  {
+   "stage": "Signed",
+   "n": 4186,
+   "share_of_signees": 1.0,
+   "mlb7": 143,
+   "mlb_rate": 0.0342,
+   "share_of_big_leaguers": 1.0
+  },
+  {
+   "stage": "Still with a club after pro season 2",
+   "n": 3142,
+   "share_of_signees": 0.7506,
+   "mlb7": 141,
+   "mlb_rate": 0.0449,
+   "share_of_big_leaguers": 0.986
+  },
+  {
+   "stage": "Out of the DSL by pro season 2",
+   "n": 1865,
+   "share_of_signees": 0.4455,
+   "mlb7": 139,
+   "mlb_rate": 0.0745,
+   "share_of_big_leaguers": 0.972
+  },
+  {
+   "stage": "Full-season ball by pro season 3",
+   "n": 1127,
+   "share_of_signees": 0.2692,
+   "mlb7": 132,
+   "mlb_rate": 0.1171,
+   "share_of_big_leaguers": 0.923
+  },
+  {
+   "stage": "Reached MLB within 7 seasons",
+   "n": 143,
+   "share_of_signees": 0.0342,
+   "mlb7": 143,
+   "mlb_rate": 1.0,
+   "share_of_big_leaguers": 1.0
+  }
+ ],
+ "path_rates": {
+  "out_of_dsl_s1": {
+   "yes": {
+    "n": 624,
+    "hits": 90,
+    "rate": 0.1442,
+    "ci": [
+     0.1188,
+     0.174
+    ]
+   },
+   "no": {
+    "n": 3562,
+    "hits": 53,
+    "rate": 0.0149,
+    "ci": [
+     0.0114,
+     0.0194
+    ]
+   }
+  },
+  "out_of_dsl_s2": {
+   "yes": {
+    "n": 1865,
+    "hits": 139,
+    "rate": 0.0745,
+    "ci": [
+     0.0635,
+     0.0873
+    ]
+   },
+   "no": {
+    "n": 2321,
+    "hits": 4,
+    "rate": 0.0017,
+    "ci": [
+     0.0007,
+     0.0044
+    ]
+   }
+  },
+  "fullseason_s3": {
+   "yes": {
+    "n": 1127,
+    "hits": 132,
+    "rate": 0.1171,
+    "ci": [
+     0.0996,
+     0.1372
+    ]
+   },
+   "no": {
+    "n": 3059,
+    "hits": 11,
+    "rate": 0.0036,
+    "ci": [
+     0.002,
+     0.0064
+    ]
+   }
+  },
+  "released_s2": {
+   "yes": {
+    "n": 1044,
+    "hits": 2,
+    "rate": 0.0019,
+    "ci": [
+     0.0005,
+     0.007
+    ]
+   },
+   "no": {
+    "n": 3142,
+    "hits": 141,
+    "rate": 0.0449,
+    "ci": [
+     0.0382,
+     0.0527
+    ]
+   }
+  },
+  "released_s3": {
+   "yes": {
+    "n": 1824,
+    "hits": 2,
+    "rate": 0.0011,
+    "ci": [
+     0.0003,
+     0.004
+    ]
+   },
+   "no": {
+    "n": 2362,
+    "hits": 141,
+    "rate": 0.0597,
+    "ci": [
+     0.0508,
+     0.07
+    ]
+   }
+  }
+ },
+ "path_by_tier": {
+  "A": {
+   "full_s3": {
+    "n": 102,
+    "hits": 31,
+    "rate": 0.3039,
+    "ci": [
+     0.2231,
+     0.399
+    ]
+   },
+   "not": {
+    "n": 18,
+    "hits": 0,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.1759
+    ]
+   }
+  },
+  "B": {
+   "full_s3": {
+    "n": 34,
+    "hits": 3,
+    "rate": 0.0882,
+    "ci": [
+     0.0305,
+     0.2296
+    ]
+   },
+   "not": {
+    "n": 9,
+    "hits": 0,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.2992
+    ]
+   }
+  },
+  "C": {
+   "full_s3": {
+    "n": 991,
+    "hits": 98,
+    "rate": 0.0989,
+    "ci": [
+     0.0818,
+     0.1191
+    ]
+   },
+   "not": {
+    "n": 3032,
+    "hits": 11,
+    "rate": 0.0036,
+    "ci": [
+     0.002,
+     0.0065
+    ]
+   }
+  }
+ },
+ "late_bloomers": {
+  "big_leaguers": 143,
+  "in_dsl_after_s2": 4,
+  "not_full_by_s3": 11,
+  "names_not_full_by_s3": [
+   [
+    "Maikel Garcia",
+    2016,
+    "KC",
+    9.0
+   ],
+   [
+    "Yainer Diaz",
+    2016,
+    "CLE",
+    6.5
+   ],
+   [
+    "Angel Zerpa",
+    2016,
+    "KC",
+    1.2
+   ],
+   [
+    "Agust\u00edn Ram\u00edrez",
+    2018,
+    "NYY",
+    0.9
+   ],
+   [
+    "Jos\u00e9 A. Ferrer",
+    2017,
+    "WSH",
+    0.8
+   ],
+   [
+    "Prelander Berroa",
+    2016,
+    "MIN",
+    0.3
+   ],
+   [
+    "Jos\u00e9 Lopez",
+    2016,
+    "TB",
+    0.0
+   ],
+   [
+    "Carlos Vargas",
+    2016,
+    "CLE",
+    -0.0
+   ]
+  ],
+  "released_then_mlb": 3
+ },
+ "Q4": {
+  "n": 311,
+  "or_older": 0.76,
+  "ci": [
+   0.43,
+   1.35
+  ],
+  "p": 0.35154375520800785,
+  "passed": false,
+  "by_band": {
+   "16": {
+    "n": 110,
+    "hits": 27,
+    "rate": 0.2455,
+    "ci": [
+     0.1745,
+     0.3336
+    ]
+   },
+   "17": {
+    "n": 138,
+    "hits": 25,
+    "rate": 0.1812,
+    "ci": [
+     0.1258,
+     0.2538
+    ]
+   },
+   "18+": {
+    "n": 63,
+    "hits": 23,
+    "rate": 0.3651,
+    "ci": [
+     0.2572,
+     0.4885
+    ]
+   }
+  },
+  "coverage": 0.07429526994744386,
+  "caveat": "Cohort is signees on a public list within two seasons of signing (date of birth known before outcomes), so it leans to the top of the market."
+ },
+ "BH": {
+  "Q1_mlb7": {
+   "p": 0.15634,
+   "q": 0.41691,
+   "survives": false
+  },
+  "Q1_fv50": {
+   "p": 0.09683,
+   "q": 0.38731,
+   "survives": false
+  },
+  "Q2_pitchers_fv50": {
+   "p": 0.9265,
+   "q": 0.97175,
+   "survives": false
+  },
+  "Q2_pitchers_mlb7": {
+   "p": 0.97175,
+   "q": 0.97175,
+   "survives": false
+  },
+  "Q2_hitters_fv50": {
+   "p": 0.375,
+   "q": 0.6,
+   "survives": false
+  },
+  "Q2_hitters_mlb7": {
+   "p": 0.8095,
+   "q": 0.97175,
+   "survives": false
+  },
+  "Q3": {
+   "p": 0.0,
+   "q": 0.0,
+   "survives": true
+  },
+  "Q4": {
+   "p": 0.35154,
+   "q": 0.6,
+   "survives": false
+  }
+ },
+ "profile": {
+  "n_signees": 4186,
+  "n_big": 143,
+  "pitcher_share_signees": 0.533,
+  "pitcher_share_big": 0.482,
+  "lhp_share_of_pitchers_signees": 0.192,
+  "lhp_share_of_pitchers_big": 0.118,
+  "bats_hitters_big": {
+   "R": 50,
+   "L": 15,
+   "S": 10
+  },
+  "bats_hitters_listed": {
+   "R": 217,
+   "L": 76,
+   "S": 66
+  },
+  "age_band_big": {
+   "18+": 60,
+   "16": 44,
+   "17": 39
+  },
+  "age_known_big": 1.0,
+  "early_listed_share_signees": 0.074,
+  "early_listed_share_big": 0.524,
+  "traded_before_debut": 48,
+  "debut_with_signing_club": null,
+  "debut_age_median": 22.5,
+  "debut_age_known": 143,
+  "debut_age_dist": {
+   "19": 2,
+   "20": 7,
+   "21": 20,
+   "22": 45,
+   "23": 35,
+   "24": 16,
+   "25": 12,
+   "26": 2,
+   "27": 3,
+   "28": 1
+  }
+ },
+ "side_output": {
+  "Hitters": {
+   "signees": 1861,
+   "mlb7": 73,
+   "rate": 0.0392,
+   "war7": 101.4,
+   "war_all": 228.8
+  },
+  "Pitchers": {
+   "signees": 2126,
+   "mlb7": 68,
+   "rate": 0.032,
+   "war7": 41.5,
+   "war_all": 83.9
+  }
+ },
+ "position_changes": {
+  "big_leaguers_16_22": 216,
+  "hitter_to_pitcher": [
+   [
+    "Daysbel Hern\u00e1ndez",
+    "OF",
+    0.9
+   ]
+  ],
+  "pitcher_to_hitter": [
+   [
+    "Alejandro Kirk",
+    "RHP",
+    13.9
+   ]
+  ],
+  "signed_ss": 42,
+  "signed_ss_mlb_pos": {
+   "SS": 14,
+   "2B": 12,
+   "3B": 9,
+   "CF": 2,
+   "RF": 1,
+   "LF": 1,
+   "1B": 1,
+   "DH": 1
+  },
+  "signed_c": 19,
+  "signed_c_mlb_pos": {
+   "C": 16,
+   "RF": 1,
+   "LF": 1,
+   "DH": 1
+  }
+ },
+ "best_by_pos": {
+  "C": [
+   [
+    "Gabriel Moreno",
+    2016,
+    25000.0,
+    null,
+    null,
+    9.7
+   ],
+   [
+    "Francisco Alvarez",
+    2018,
+    2700000.0,
+    71.0,
+    220.0,
+    7.7
+   ],
+   [
+    "Yainer Diaz",
+    2016,
+    25000.0,
+    null,
+    null,
+    6.5
+   ],
+   [
+    "Iv\u00e1n Herrera",
+    2016,
+    200000.0,
+    72.0,
+    180.0,
+    6.2
+   ]
+  ],
+  "LHP": [
+   [
+    "Adrian Morejon",
+    2016,
+    11000000.0,
+    71.0,
+    165.0,
+    5.2
+   ],
+   [
+    "Angel Zerpa",
+    2016,
+    null,
+    null,
+    null,
+    1.2
+   ],
+   [
+    "Cionel P\u00e9rez",
+    2016,
+    2000000.0,
+    71.0,
+    170.0,
+    1.2
+   ],
+   [
+    "Jos\u00e9 A. Ferrer",
+    2017,
+    null,
+    null,
+    null,
+    0.8
+   ]
+  ],
+  "OF": [
+   [
+    "Julio Rodr\u00edguez",
+    2017,
+    1750000.0,
+    75.0,
+    205.0,
+    23.0
+   ],
+   [
+    "Randy Arozarena",
+    2016,
+    1250000.0,
+    71.0,
+    195.0,
+    19.9
+   ],
+   [
+    "Luis Robert Jr.",
+    2016,
+    26000000.0,
+    75.0,
+    185.0,
+    14.2
+   ],
+   [
+    "Jackson Chourio",
+    2021,
+    1900000.0,
+    73.0,
+    165.0,
+    11.9
+   ]
+  ],
+  "Other IF": [
+   [
+    "Elly De La Cruz",
+    2018,
+    65000.0,
+    null,
+    null,
+    25.2
+   ],
+   [
+    "Miguel Vargas",
+    2017,
+    300000.0,
+    75.0,
+    200.0,
+    6.5
+   ],
+   [
+    "Hao-Yu Lee",
+    2021,
+    500000.0,
+    70.0,
+    190.0,
+    1.3
+   ],
+   [
+    "Noelvi Marte",
+    2018,
+    1550000.0,
+    73.0,
+    180.0,
+    1.1
+   ]
+  ],
+  "RHP": [
+   [
+    "Alejandro Kirk",
+    2016,
+    30000.0,
+    null,
+    null,
+    13.9
+   ],
+   [
+    "Brayan Bello",
+    2017,
+    28000.0,
+    73.0,
+    170.0,
+    9.1
+   ],
+   [
+    "Luis Garcia",
+    2017,
+    20000.0,
+    null,
+    null,
+    6.8
+   ],
+   [
+    "F\u00e9lix Bautista",
+    2016,
+    18000.0,
+    null,
+    null,
+    6.5
+   ]
+  ],
+  "SS": [
+   [
+    "Geraldo Perdomo",
+    2016,
+    70000.0,
+    74.0,
+    184.0,
+    13.4
+   ],
+   [
+    "Junior Caminero",
+    2019,
+    225000.0,
+    null,
+    null,
+    11.4
+   ],
+   [
+    "Wander Franco",
+    2017,
+    3825000.0,
+    70.0,
+    160.0,
+    10.3
+   ],
+   [
+    "Otto Lopez",
+    2016,
+    60000.0,
+    70.0,
+    160.0,
+    9.8
+   ]
+  ]
+ }
+}

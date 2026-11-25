@@ -1,0 +1,3423 @@
+{
+ "n_universe": 9984,
+ "n_pro_flagged": 19,
+ "classes": [
+  {
+   "period": 2016,
+   "signees": 1063,
+   "known_bonus_n": 97,
+   "known_bonus_m": 97.0,
+   "mlb7": 55,
+   "mlb_any": 68,
+   "fv50_4": 15,
+   "t100": 20,
+   "war_all": 186.2
+  },
+  {
+   "period": 2017,
+   "signees": 1175,
+   "known_bonus_n": 128,
+   "known_bonus_m": 52.6,
+   "mlb7": 40,
+   "mlb_any": 60,
+   "fv50_4": 11,
+   "t100": 18,
+   "war_all": 170.2
+  },
+  {
+   "period": 2018,
+   "signees": 1039,
+   "known_bonus_n": 121,
+   "known_bonus_m": 70.0,
+   "mlb7": 27,
+   "mlb_any": 36,
+   "fv50_4": 11,
+   "t100": 16,
+   "war_all": 46.1
+  },
+  {
+   "period": 2019,
+   "signees": 918,
+   "known_bonus_n": 107,
+   "known_bonus_m": 84.8,
+   "mlb7": 27,
+   "mlb_any": 27,
+   "fv50_4": 7,
+   "t100": 11,
+   "war_all": 17.9
+  },
+  {
+   "period": 2021,
+   "signees": 835,
+   "known_bonus_n": 100,
+   "known_bonus_m": 82.7,
+   "mlb7": 26,
+   "mlb_any": 26,
+   "fv50_4": 11,
+   "t100": 13,
+   "war_all": 21.8
+  },
+  {
+   "period": 2022,
+   "signees": 1011,
+   "known_bonus_n": 119,
+   "known_bonus_m": 75.5,
+   "mlb7": 8,
+   "mlb_any": 8,
+   "fv50_4": 14,
+   "t100": 15,
+   "war_all": 1.5
+  },
+  {
+   "period": 2023,
+   "signees": 1041,
+   "known_bonus_n": 111,
+   "known_bonus_m": 91.2,
+   "mlb7": 5,
+   "mlb_any": 5,
+   "fv50_4": 16,
+   "t100": 15,
+   "war_all": -1.2
+  },
+  {
+   "period": 2024,
+   "signees": 979,
+   "known_bonus_n": 104,
+   "known_bonus_m": 99.5,
+   "mlb7": 0,
+   "mlb_any": 0,
+   "fv50_4": 14,
+   "t100": 14,
+   "war_all": 0.0
+  },
+  {
+   "period": 2025,
+   "signees": 1050,
+   "known_bonus_n": 84,
+   "known_bonus_m": 103.1,
+   "mlb7": 1,
+   "mlb_any": 1,
+   "fv50_4": 7,
+   "t100": 7,
+   "war_all": 1.8
+  },
+  {
+   "period": 2026,
+   "signees": 873,
+   "known_bonus_n": 60,
+   "known_bonus_m": 99.5,
+   "mlb7": 0,
+   "mlb_any": 0,
+   "fv50_4": 0,
+   "t100": 0,
+   "war_all": 0.0
+  }
+ ],
+ "T1_mlb7": {
+  "auc": 0.609,
+  "ci": [
+   0.552,
+   0.671
+  ],
+  "p": 3.3820946559799695e-13,
+  "n": 1955,
+  "hits": 54,
+  "rates": {
+   "A": {
+    "n": 56,
+    "hits": 11,
+    "rate": 0.1964,
+    "ci": [
+     0.1134,
+     0.3184
+    ]
+   },
+   "B": {
+    "n": 43,
+    "hits": 3,
+    "rate": 0.0698,
+    "ci": [
+     0.024,
+     0.1861
+    ]
+   },
+   "C": {
+    "n": 1856,
+    "hits": 40,
+    "rate": 0.0216,
+    "ci": [
+     0.0159,
+     0.0292
+    ]
+   }
+  },
+  "share_of_hits": {
+   "A": 0.204,
+   "B": 0.056,
+   "C": 0.741
+  },
+  "passed": true
+ },
+ "T1_fv50": {
+  "auc": 0.829,
+  "ci": [
+   0.758,
+   0.894
+  ],
+  "p": 1.857115407693885e-77,
+  "n": 3798,
+  "hits": 43,
+  "rates": {
+   "A": {
+    "n": 136,
+    "hits": 26,
+    "rate": 0.1912,
+    "ci": [
+     0.1339,
+     0.2654
+    ]
+   },
+   "B": {
+    "n": 78,
+    "hits": 4,
+    "rate": 0.0513,
+    "ci": [
+     0.0201,
+     0.1246
+    ]
+   },
+   "C": {
+    "n": 3584,
+    "hits": 13,
+    "rate": 0.0036,
+    "ci": [
+     0.0021,
+     0.0062
+    ]
+   }
+  },
+  "share_of_hits": {
+   "A": 0.605,
+   "B": 0.093,
+   "C": 0.302
+  },
+  "passed": true
+ },
+ "T1_money_share_known": {
+  "A": 0.807,
+  "B": 0.174,
+  "C": 0.019
+ },
+ "T1_money_share_with_unreported": {
+  "10K": {
+   "A": 0.715,
+   "B": 0.154,
+   "C": 0.131
+  },
+  "50K": {
+   "A": 0.491,
+   "B": 0.106,
+   "C": 0.404
+  },
+  "100K": {
+   "A": 0.353,
+   "B": 0.076,
+   "C": 0.571
+  }
+ },
+ "T2": {
+  "n": 277,
+  "hits": 35,
+  "by_country": {
+   "Dominican Republic": {
+    "n": 143,
+    "hits": 19,
+    "rate": 0.133,
+    "median_bonus_k": 900
+   },
+   "Other": {
+    "n": 56,
+    "hits": 8,
+    "rate": 0.143,
+    "median_bonus_k": 800
+   },
+   "Venezuela": {
+    "n": 78,
+    "hits": 8,
+    "rate": 0.103,
+    "median_bonus_k": 1050
+   }
+  },
+  "logloss_bonus_only": 0.3705,
+  "logloss_bonus_country": 0.3765,
+  "improvement": -0.006,
+  "ci": [
+   -0.0158,
+   0.0026
+  ],
+  "p": 0.91525,
+  "passed": false,
+  "full_fit_or": {
+   "const": 0.001,
+   "lb": 1.484,
+   "VEN": 0.702,
+   "OTH": 1.081
+  },
+  "caveat": "Cohort is signees with an early or rank-imputed bonus and a known country, so it leans to the top of the market."
+ },
+ "T3_fv50": {
+  "n": 6029,
+  "or_open": 2.26,
+  "ci": [
+   1.18,
+   4.327
+  ],
+  "p": 0.013924452856403785,
+  "passed": true,
+  "cells": {
+   "A_open": {
+    "n": 164,
+    "hits": 33,
+    "rate": 0.2012
+   },
+   "A_later": {
+    "n": 36,
+    "hits": 6,
+    "rate": 0.1667
+   },
+   "B_open": {
+    "n": 66,
+    "hits": 4,
+    "rate": 0.0606
+   },
+   "B_later": {
+    "n": 12,
+    "hits": 0,
+    "rate": 0.0
+   },
+   "C_open": {
+    "n": 2374,
+    "hits": 16,
+    "rate": 0.0067
+   },
+   "C_later": {
+    "n": 3377,
+    "hits": 8,
+    "rate": 0.0024
+   }
+  },
+  "share_open": 0.432
+ },
+ "T3_mlb7": {
+  "n": 4186,
+  "or_open": 1.647,
+  "ci": [
+   1.15,
+   2.36
+  ],
+  "p": 0.006537785365466051,
+  "passed": true,
+  "cells": {
+   "A_open": {
+    "n": 94,
+    "hits": 19,
+    "rate": 0.2021
+   },
+   "A_later": {
+    "n": 26,
+    "hits": 12,
+    "rate": 0.4615
+   },
+   "B_open": {
+    "n": 35,
+    "hits": 3,
+    "rate": 0.0857
+   },
+   "B_later": {
+    "n": 8,
+    "hits": 0,
+    "rate": 0.0
+   },
+   "C_open": {
+    "n": 1638,
+    "hits": 63,
+    "rate": 0.0385
+   },
+   "C_later": {
+    "n": 2385,
+    "hits": 46,
+    "rate": 0.0193
+   }
+  },
+  "share_open": 0.422
+ },
+ "T3_tier_mix": {
+  "later": {
+   "C": 3377,
+   "A": 36,
+   "B": 12
+  },
+  "open": {
+   "C": 2374,
+   "A": 164,
+   "B": 66
+  }
+ },
+ "T4": {
+  "n": 4186,
+  "stat_obs": 0.974,
+  "perm_mean": 0.914,
+  "p": 0.3565,
+  "passed": false,
+  "prior_weight": 104.08,
+  "clubs": [
+   {
+    "sign_org": "NYY",
+    "signees": 172,
+    "mlb7": 11,
+    "exp": 6.671,
+    "war7": 3.666,
+    "tierA": 8,
+    "oe": 1.649,
+    "oe_shrunk": 1.039
+   },
+   {
+    "sign_org": "CWS",
+    "signees": 80,
+    "mlb7": 6,
+    "exp": 2.846,
+    "war7": 10.592,
+    "tierA": 2,
+    "oe": 2.108,
+    "oe_shrunk": 1.029
+   },
+   {
+    "sign_org": "SEA",
+    "signees": 87,
+    "mlb7": 6,
+    "exp": 2.968,
+    "war7": 15.473,
+    "tierA": 3,
+    "oe": 2.021,
+    "oe_shrunk": 1.028
+   },
+   {
+    "sign_org": "PIT",
+    "signees": 188,
+    "mlb7": 8,
+    "exp": 5.514,
+    "war7": 4.747,
+    "tierA": 1,
+    "oe": 1.451,
+    "oe_shrunk": 1.023
+   },
+   {
+    "sign_org": "CLE",
+    "signees": 142,
+    "mlb7": 7,
+    "exp": 4.78,
+    "war7": 12.805,
+    "tierA": 5,
+    "oe": 1.465,
+    "oe_shrunk": 1.02
+   },
+   {
+    "sign_org": "TOR",
+    "signees": 157,
+    "mlb7": 7,
+    "exp": 4.967,
+    "war7": 7.982,
+    "tierA": 4,
+    "oe": 1.409,
+    "oe_shrunk": 1.019
+   },
+   {
+    "sign_org": "COL",
+    "signees": 128,
+    "mlb7": 5,
+    "exp": 3.502,
+    "war7": 1.512,
+    "tierA": 1,
+    "oe": 1.428,
+    "oe_shrunk": 1.014
+   },
+   {
+    "sign_org": "HOU",
+    "signees": 126,
+    "mlb7": 6,
+    "exp": 4.506,
+    "war7": 13.167,
+    "tierA": 3,
+    "oe": 1.332,
+    "oe_shrunk": 1.014
+   },
+   {
+    "sign_org": "TEX",
+    "signees": 171,
+    "mlb7": 8,
+    "exp": 6.659,
+    "war7": 1.337,
+    "tierA": 9,
+    "oe": 1.201,
+    "oe_shrunk": 1.012
+   },
+   {
+    "sign_org": "MIN",
+    "signees": 90,
+    "mlb7": 4,
+    "exp": 2.994,
+    "war7": -0.26,
+    "tierA": 3,
+    "oe": 1.336,
+    "oe_shrunk": 1.009
+   },
+   {
+    "sign_org": "CIN",
+    "signees": 106,
+    "mlb7": 5,
+    "exp": 4.309,
+    "war7": 17.491,
+    "tierA": 4,
+    "oe": 1.16,
+    "oe_shrunk": 1.006
+   },
+   {
+    "sign_org": "WSH",
+    "signees": 112,
+    "mlb7": 5,
+    "exp": 4.383,
+    "war7": -3.422,
+    "tierA": 4,
+    "oe": 1.141,
+    "oe_shrunk": 1.006
+   },
+   {
+    "sign_org": "ATL",
+    "signees": 108,
+    "mlb7": 5,
+    "exp": 4.531,
+    "war7": -0.143,
+    "tierA": 4,
+    "oe": 1.104,
+    "oe_shrunk": 1.004
+   },
+   {
+    "sign_org": "AZ",
+    "signees": 188,
+    "mlb7": 6,
+    "exp": 5.639,
+    "war7": 1.217,
+    "tierA": 3,
+    "oe": 1.064,
+    "oe_shrunk": 1.003
+   },
+   {
+    "sign_org": "SF",
+    "signees": 125,
+    "mlb7": 4,
+    "exp": 3.781,
+    "war7": -2.074,
+    "tierA": 2,
+    "oe": 1.058,
+    "oe_shrunk": 1.002
+   },
+   {
+    "sign_org": "MIA",
+    "signees": 100,
+    "mlb7": 4,
+    "exp": 3.816,
+    "war7": 9.423,
+    "tierA": 5,
+    "oe": 1.048,
+    "oe_shrunk": 1.002
+   },
+   {
+    "sign_org": "BOS",
+    "signees": 170,
+    "mlb7": 5,
+    "exp": 5.069,
+    "war7": 5.286,
+    "tierA": 3,
+    "oe": 0.986,
+    "oe_shrunk": 0.999
+   },
+   {
+    "sign_org": "SD",
+    "signees": 140,
+    "mlb7": 7,
+    "exp": 7.151,
+    "war7": -0.853,
+    "tierA": 10,
+    "oe": 0.979,
+    "oe_shrunk": 0.999
+   },
+   {
+    "sign_org": "LAD",
+    "signees": 197,
+    "mlb7": 5,
+    "exp": 5.974,
+    "war7": 17.824,
+    "tierA": 2,
+    "oe": 0.837,
+    "oe_shrunk": 0.991
+   },
+   {
+    "sign_org": "ATH",
+    "signees": 94,
+    "mlb7": 3,
+    "exp": 4.281,
+    "war7": -0.234,
+    "tierA": 6,
+    "oe": 0.701,
+    "oe_shrunk": 0.988
+   },
+   {
+    "sign_org": "NYM",
+    "signees": 206,
+    "mlb7": 5,
+    "exp": 6.401,
+    "war7": 8.019,
+    "tierA": 5,
+    "oe": 0.781,
+    "oe_shrunk": 0.987
+   },
+   {
+    "sign_org": "STL",
+    "signees": 144,
+    "mlb7": 4,
+    "exp": 5.396,
+    "war7": 14.245,
+    "tierA": 4,
+    "oe": 0.741,
+    "oe_shrunk": 0.987
+   },
+   {
+    "sign_org": "PHI",
+    "signees": 204,
+    "mlb7": 5,
+    "exp": 6.616,
+    "war7": -0.633,
+    "tierA": 4,
+    "oe": 0.756,
+    "oe_shrunk": 0.985
+   },
+   {
+    "sign_org": "KC",
+    "signees": 157,
+    "mlb7": 3,
+    "exp": 4.603,
+    "war7": 2.31,
+    "tierA": 1,
+    "oe": 0.652,
+    "oe_shrunk": 0.985
+   },
+   {
+    "sign_org": "BAL",
+    "signees": 115,
+    "mlb7": 1,
+    "exp": 2.82,
+    "war7": 5.497,
+    "tierA": 0,
+    "oe": 0.355,
+    "oe_shrunk": 0.983
+   },
+   {
+    "sign_org": "TB",
+    "signees": 149,
+    "mlb7": 3,
+    "exp": 4.957,
+    "war7": 9.129,
+    "tierA": 5,
+    "oe": 0.605,
+    "oe_shrunk": 0.982
+   },
+   {
+    "sign_org": "LAA",
+    "signees": 103,
+    "mlb7": 1,
+    "exp": 3.525,
+    "war7": 0.0,
+    "tierA": 4,
+    "oe": 0.284,
+    "oe_shrunk": 0.977
+   },
+   {
+    "sign_org": "MIL",
+    "signees": 148,
+    "mlb7": 2,
+    "exp": 5.055,
+    "war7": 3.294,
+    "tierA": 6,
+    "oe": 0.396,
+    "oe_shrunk": 0.972
+   },
+   {
+    "sign_org": "CHC",
+    "signees": 148,
+    "mlb7": 2,
+    "exp": 5.067,
+    "war7": 2.521,
+    "tierA": 5,
+    "oe": 0.395,
+    "oe_shrunk": 0.972
+   },
+   {
+    "sign_org": "DET",
+    "signees": 131,
+    "mlb7": 0,
+    "exp": 4.217,
+    "war7": 0.0,
+    "tierA": 4,
+    "oe": 0.0,
+    "oe_shrunk": 0.961
+   }
+  ]
+ },
+ "T5": {
+  "unreported_10K": {
+   "A": {
+    "n": 120,
+    "dollars_m": 277.36,
+    "mlb7": 31,
+    "war7": 58.4,
+    "war_per_m": 0.211,
+    "mlb_per_m": 0.112
+   },
+   "BC": {
+    "n": 4066,
+    "dollars_m": 67.37,
+    "mlb7": 112,
+    "war7": 101.5,
+    "war_per_m": 1.506,
+    "mlb_per_m": 1.662
+   },
+   "ratio_BC_over_A_war_per_dollar": 7.15,
+   "ratio_ci": [
+    2.3,
+    28.69
+   ]
+  },
+  "unreported_50K": {
+   "A": {
+    "n": 120,
+    "dollars_m": 277.36,
+    "mlb7": 31,
+    "war7": 58.4,
+    "war_per_m": 0.211,
+    "mlb_per_m": 0.112
+   },
+   "BC": {
+    "n": 4066,
+    "dollars_m": 227.25,
+    "mlb7": 112,
+    "war7": 101.5,
+    "war_per_m": 0.447,
+    "mlb_per_m": 0.493
+   },
+   "ratio_BC_over_A_war_per_dollar": 2.12,
+   "ratio_ci": [
+    0.84,
+    11.17
+   ]
+  },
+  "unreported_100K": {
+   "A": {
+    "n": 120,
+    "dollars_m": 277.36,
+    "mlb7": 31,
+    "war7": 58.4,
+    "war_per_m": 0.211,
+    "mlb_per_m": 0.112
+   },
+   "BC": {
+    "n": 4066,
+    "dollars_m": 427.1,
+    "mlb7": 112,
+    "war7": 101.5,
+    "war_per_m": 0.238,
+    "mlb_per_m": 0.262
+   },
+   "ratio_BC_over_A_war_per_dollar": 1.13,
+   "ratio_ci": [
+    0.44,
+    4.87
+   ]
+  },
+  "passed_all_three": false
+ },
+ "BH": {
+  "T1_mlb7": {
+   "p": 0.0,
+   "q": 0.0,
+   "survives_q10": true
+  },
+  "T1_fv50": {
+   "p": 0.0,
+   "q": 0.0,
+   "survives_q10": true
+  },
+  "T2": {
+   "p": 0.91525,
+   "q": 0.91525,
+   "survives_q10": false
+  },
+  "T3_fv50": {
+   "p": 0.01392,
+   "q": 0.02089,
+   "survives_q10": true
+  },
+  "T3_mlb7": {
+   "p": 0.00654,
+   "q": 0.01308,
+   "survives_q10": true
+  },
+  "T4": {
+   "p": 0.3565,
+   "q": 0.4278,
+   "survives_q10": false
+  }
+ },
+ "country": [
+  {
+   "country": "Dominican Republic",
+   "known_bonus_n": 537,
+   "known_bonus_m": 428.2,
+   "mlb_2016_19": 90,
+   "mlb_all": 105,
+   "war_all": 176.9,
+   "fv50_2016_22": 41,
+   "t100": 58,
+   "known_bonus_m_share": 0.511,
+   "mlb_all_share": 0.482,
+   "war_all_share": 0.482,
+   "fv50_2016_22_share": 0.446,
+   "t100_share": 0.457
+  },
+  {
+   "country": "Venezuela",
+   "known_bonus_n": 297,
+   "known_bonus_m": 212.35,
+   "mlb_2016_19": 47,
+   "mlb_all": 58,
+   "war_all": 76.7,
+   "fv50_2016_22": 24,
+   "t100": 34,
+   "known_bonus_m_share": 0.253,
+   "mlb_all_share": 0.266,
+   "war_all_share": 0.209,
+   "fv50_2016_22_share": 0.261,
+   "t100_share": 0.268
+  },
+  {
+   "country": "Cuba",
+   "known_bonus_n": 71,
+   "known_bonus_m": 147.62,
+   "mlb_2016_19": 20,
+   "mlb_all": 25,
+   "war_all": 80.1,
+   "fv50_2016_22": 15,
+   "t100": 20,
+   "known_bonus_m_share": 0.176,
+   "mlb_all_share": 0.115,
+   "war_all_share": 0.218,
+   "fv50_2016_22_share": 0.163,
+   "t100_share": 0.157
+  },
+  {
+   "country": "Bahamas",
+   "known_bonus_n": 10,
+   "known_bonus_m": 13.04,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 2,
+   "t100": 3,
+   "known_bonus_m_share": 0.016,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.022,
+   "t100_share": 0.024
+  },
+  {
+   "country": "Mexico",
+   "known_bonus_n": 33,
+   "known_bonus_m": 8.86,
+   "mlb_2016_19": 10,
+   "mlb_all": 11,
+   "war_all": 17.1,
+   "fv50_2016_22": 2,
+   "t100": 3,
+   "known_bonus_m_share": 0.011,
+   "mlb_all_share": 0.05,
+   "war_all_share": 0.047,
+   "fv50_2016_22_share": 0.022,
+   "t100_share": 0.024
+  },
+  {
+   "country": "Taiwan",
+   "known_bonus_n": 8,
+   "known_bonus_m": 5.88,
+   "mlb_2016_19": 2,
+   "mlb_all": 3,
+   "war_all": 0.4,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.007,
+   "mlb_all_share": 0.014,
+   "war_all_share": 0.001,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Panama",
+   "known_bonus_n": 15,
+   "known_bonus_m": 5.65,
+   "mlb_2016_19": 2,
+   "mlb_all": 3,
+   "war_all": 6.8,
+   "fv50_2016_22": 3,
+   "t100": 3,
+   "known_bonus_m_share": 0.007,
+   "mlb_all_share": 0.014,
+   "war_all_share": 0.019,
+   "fv50_2016_22_share": 0.033,
+   "t100_share": 0.024
+  },
+  {
+   "country": "South Korea",
+   "known_bonus_n": 8,
+   "known_bonus_m": 5.51,
+   "mlb_2016_19": 1,
+   "mlb_all": 1,
+   "war_all": 0.5,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.007,
+   "mlb_all_share": 0.005,
+   "war_all_share": 0.001,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Colombia",
+   "known_bonus_n": 15,
+   "known_bonus_m": 4.43,
+   "mlb_2016_19": 3,
+   "mlb_all": 5,
+   "war_all": 0.5,
+   "fv50_2016_22": 3,
+   "t100": 3,
+   "known_bonus_m_share": 0.005,
+   "mlb_all_share": 0.023,
+   "war_all_share": 0.001,
+   "fv50_2016_22_share": 0.033,
+   "t100_share": 0.024
+  },
+  {
+   "country": "Japan",
+   "known_bonus_n": 1,
+   "known_bonus_m": 1.5,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.002,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Brazil",
+   "known_bonus_n": 1,
+   "known_bonus_m": 1.4,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 1,
+   "known_bonus_m_share": 0.002,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.008
+  },
+  {
+   "country": "Aruba",
+   "known_bonus_n": 3,
+   "known_bonus_m": 1.27,
+   "mlb_2016_19": 0,
+   "mlb_all": 1,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.002,
+   "mlb_all_share": 0.005,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Unknown",
+   "known_bonus_n": 2,
+   "known_bonus_m": 1.25,
+   "mlb_2016_19": 4,
+   "mlb_all": 4,
+   "war_all": -0.5,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.001,
+   "mlb_all_share": 0.018,
+   "war_all_share": -0.001,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Spain",
+   "known_bonus_n": 3,
+   "known_bonus_m": 0.4,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Australia",
+   "known_bonus_n": 3,
+   "known_bonus_m": 0.39,
+   "mlb_2016_19": 3,
+   "mlb_all": 3,
+   "war_all": 0.6,
+   "fv50_2016_22": 1,
+   "t100": 1,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.014,
+   "war_all_share": 0.002,
+   "fv50_2016_22_share": 0.011,
+   "t100_share": 0.008
+  },
+  {
+   "country": "Dominican Republic/USA",
+   "known_bonus_n": 1,
+   "known_bonus_m": 0.35,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Curacao",
+   "known_bonus_n": 3,
+   "known_bonus_m": 0.34,
+   "mlb_2016_19": 1,
+   "mlb_all": 1,
+   "war_all": 9.0,
+   "fv50_2016_22": 1,
+   "t100": 1,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.005,
+   "war_all_share": 0.025,
+   "fv50_2016_22_share": 0.011,
+   "t100_share": 0.008
+  },
+  {
+   "country": "New Zealand",
+   "known_bonus_n": 1,
+   "known_bonus_m": 0.25,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Netherlands",
+   "known_bonus_n": 2,
+   "known_bonus_m": 0.22,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Italy",
+   "known_bonus_n": 1,
+   "known_bonus_m": 0.21,
+   "mlb_2016_19": 1,
+   "mlb_all": 1,
+   "war_all": -1.3,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.005,
+   "war_all_share": -0.004,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Nicaragua",
+   "known_bonus_n": 2,
+   "known_bonus_m": 0.18,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Antigua",
+   "known_bonus_n": 1,
+   "known_bonus_m": 0.03,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Uganda",
+   "known_bonus_n": 1,
+   "known_bonus_m": 0.02,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "DOM",
+   "known_bonus_n": 0,
+   "known_bonus_m": 0.0,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "Republic of Korea",
+   "known_bonus_n": 0,
+   "known_bonus_m": 0.0,
+   "mlb_2016_19": 0,
+   "mlb_all": 0,
+   "war_all": 0.0,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.0,
+   "war_all_share": 0.0,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  },
+  {
+   "country": "VEN",
+   "known_bonus_n": 0,
+   "known_bonus_m": 0.0,
+   "mlb_2016_19": 1,
+   "mlb_all": 1,
+   "war_all": -0.5,
+   "fv50_2016_22": 0,
+   "t100": 0,
+   "known_bonus_m_share": 0.0,
+   "mlb_all_share": 0.005,
+   "war_all_share": -0.001,
+   "fv50_2016_22_share": 0.0,
+   "t100_share": 0.0
+  }
+ ],
+ "country_coverage": {
+  "mlb_any_with_country": 1.0,
+  "fv50_with_country": 1.0
+ },
+ "country_money_by_period": {
+  "2016": {
+   "Bahamas": 0.2,
+   "Colombia": 1.04,
+   "Cuba": 68.3,
+   "Dominican Republic": 19.44,
+   "Mexico": 0.3,
+   "Panama": 0.2,
+   "Venezuela": 7.51
+  },
+  "2017": {
+   "Australia": 0.3,
+   "Bahamas": 5.4,
+   "Brazil": 1.4,
+   "Colombia": 0.31,
+   "Cuba": 2.52,
+   "Curacao": 0.01,
+   "Dominican Republic": 20.65,
+   "Mexico": 2.35,
+   "Panama": 0.88,
+   "South Korea": 1.25,
+   "Spain": 0.3,
+   "Taiwan": 0.5,
+   "Venezuela": 16.46
+  },
+  "2018": {
+   "Colombia": 0.18,
+   "Cuba": 15.69,
+   "Dominican Republic": 36.22,
+   "Mexico": 0.4,
+   "Netherlands": 0.1,
+   "Nicaragua": 0.17,
+   "Panama": 0.61,
+   "South Korea": 0.45,
+   "Spain": 0.05,
+   "Venezuela": 16.11
+  },
+  "2019": {
+   "Australia": 0.09,
+   "Bahamas": 1.79,
+   "Cuba": 7.31,
+   "Curacao": 0.01,
+   "Dominican Republic": 43.37,
+   "Italy": 0.21,
+   "Mexico": 1.39,
+   "Netherlands": 0.12,
+   "Panama": 1.82,
+   "Taiwan": 0.38,
+   "Venezuela": 26.3
+  },
+  "2021": {
+   "Aruba": 0.1,
+   "Cuba": 9.6,
+   "Dominican Republic": 42.35,
+   "Dominican Republic/USA": 0.35,
+   "Mexico": 1.15,
+   "Panama": 0.68,
+   "Taiwan": 1.02,
+   "Venezuela": 24.91
+  },
+  "2022": {
+   "Antigua": 0.03,
+   "Aruba": 0.07,
+   "Colombia": 2.9,
+   "Cuba": 13.6,
+   "Curacao": 0.32,
+   "Dominican Republic": 33.05,
+   "Mexico": 0.86,
+   "New Zealand": 0.25,
+   "Nicaragua": 0.01,
+   "Panama": 0.07,
+   "South Korea": 0.5,
+   "Spain": 0.05,
+   "Venezuela": 21.13
+  },
+  "2023": {
+   "Bahamas": 4.15,
+   "Cuba": 10.59,
+   "Dominican Republic": 47.04,
+   "Mexico": 0.64,
+   "Panama": 0.21,
+   "South Korea": 0.75,
+   "Taiwan": 1.2,
+   "Uganda": 0.02,
+   "Venezuela": 24.24
+  },
+  "2024": {
+   "Cuba": 7.37,
+   "Dominican Republic": 68.46,
+   "Mexico": 0.76,
+   "Panama": 0.42,
+   "Taiwan": 2.0,
+   "Unknown": 0.5,
+   "Venezuela": 19.8
+  },
+  "2025": {
+   "Aruba": 1.1,
+   "Bahamas": 1.5,
+   "Cuba": 6.9,
+   "Dominican Republic": 57.07,
+   "Japan": 1.5,
+   "Mexico": 0.01,
+   "Panama": 0.75,
+   "South Korea": 1.36,
+   "Taiwan": 0.78,
+   "Unknown": 0.75,
+   "Venezuela": 24.85
+  },
+  "2026": {
+   "Cuba": 5.75,
+   "Dominican Republic": 60.54,
+   "Mexico": 1.0,
+   "South Korea": 1.2,
+   "Venezuela": 31.05
+  }
+ },
+ "clubs": [
+  {
+   "club": "LAD",
+   "signees_16_22": 287,
+   "known_m_16_22": 16.75,
+   "known_m_16_19": 10.96,
+   "mlb7_16_19": 5,
+   "war7_16_19": 17.8,
+   "war_all_16_22": 49.4,
+   "fv50_16_22": 5,
+   "t100_16_22": 6,
+   "top_war": [
+    [
+     "Yordan Alvarez",
+     29.3
+    ],
+    [
+     "Andy Pages",
+     9.0
+    ],
+    [
+     "Miguel Vargas",
+     6.5
+    ]
+   ]
+  },
+  {
+   "club": "TOR",
+   "signees_16_22": 209,
+   "known_m_16_22": 15.8,
+   "known_m_16_19": 10.98,
+   "mlb7_16_19": 7,
+   "war7_16_19": 8.0,
+   "war_all_16_22": 33.4,
+   "fv50_16_22": 2,
+   "t100_16_22": 5,
+   "top_war": [
+    [
+     "Alejandro Kirk",
+     13.9
+    ],
+    [
+     "Otto Lopez",
+     9.8
+    ],
+    [
+     "Gabriel Moreno",
+     9.7
+    ]
+   ]
+  },
+  {
+   "club": "STL",
+   "signees_16_22": 179,
+   "known_m_16_22": 7.96,
+   "known_m_16_19": 4.78,
+   "mlb7_16_19": 4,
+   "war7_16_19": 14.2,
+   "war_all_16_22": 30.9,
+   "fv50_16_22": 3,
+   "t100_16_22": 3,
+   "top_war": [
+    [
+     "Randy Arozarena",
+     19.9
+    ],
+    [
+     "Iván Herrera",
+     6.2
+    ],
+    [
+     "Johan Oviedo",
+     4.5
+    ]
+   ]
+  },
+  {
+   "club": "CIN",
+   "signees_16_22": 148,
+   "known_m_16_22": 16.74,
+   "known_m_16_19": 13.32,
+   "mlb7_16_19": 5,
+   "war7_16_19": 17.5,
+   "war_all_16_22": 23.1,
+   "fv50_16_22": 2,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Elly De La Cruz",
+     25.2
+    ],
+    [
+     "Vladimir Gutierrez",
+     1.1
+    ],
+    [
+     "Carlos Jorge",
+     0.1
+    ]
+   ]
+  },
+  {
+   "club": "SEA",
+   "signees_16_22": 118,
+   "known_m_16_22": 11.5,
+   "known_m_16_19": 4.7,
+   "mlb7_16_19": 6,
+   "war7_16_19": 15.5,
+   "war_all_16_22": 22.6,
+   "fv50_16_22": 4,
+   "t100_16_22": 5,
+   "top_war": [
+    [
+     "Julio Rodríguez",
+     23.0
+    ],
+    [
+     "Noelvi Marte",
+     1.1
+    ],
+    [
+     "Michael Arroyo",
+     0.4
+    ]
+   ]
+  },
+  {
+   "club": "CLE",
+   "signees_16_22": 197,
+   "known_m_16_22": 13.94,
+   "known_m_16_19": 9.46,
+   "mlb7_16_19": 7,
+   "war7_16_19": 12.8,
+   "war_all_16_22": 21.0,
+   "fv50_16_22": 6,
+   "t100_16_22": 7,
+   "top_war": [
+    [
+     "Junior Caminero",
+     11.4
+    ],
+    [
+     "Yainer Diaz",
+     6.5
+    ],
+    [
+     "Brayan Rocchio",
+     2.6
+    ]
+   ]
+  },
+  {
+   "club": "MIL",
+   "signees_16_22": 245,
+   "known_m_16_22": 12.79,
+   "known_m_16_19": 6.5,
+   "mlb7_16_19": 2,
+   "war7_16_19": 3.3,
+   "war_all_16_22": 18.6,
+   "fv50_16_22": 1,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Jackson Chourio",
+     11.9
+    ],
+    [
+     "Abner Uribe",
+     6.0
+    ],
+    [
+     "Luis Lara",
+     0.7
+    ]
+   ]
+  },
+  {
+   "club": "HOU",
+   "signees_16_22": 217,
+   "known_m_16_22": 14.63,
+   "known_m_16_19": 7.46,
+   "mlb7_16_19": 6,
+   "war7_16_19": 13.2,
+   "war_all_16_22": 18.3,
+   "fv50_16_22": 1,
+   "t100_16_22": 1,
+   "top_war": [
+    [
+     "Wilyer Abreu",
+     9.0
+    ],
+    [
+     "Luis Garcia",
+     6.8
+    ],
+    [
+     "Cionel Pérez",
+     1.2
+    ]
+   ]
+  },
+  {
+   "club": "BOS",
+   "signees_16_22": 229,
+   "known_m_16_22": 11.44,
+   "known_m_16_19": 7.18,
+   "mlb7_16_19": 5,
+   "war7_16_19": 5.3,
+   "war_all_16_22": 16.5,
+   "fv50_16_22": 1,
+   "t100_16_22": 3,
+   "top_war": [
+    [
+     "Brayan Bello",
+     9.1
+    ],
+    [
+     "Ceddanne Rafaela",
+     9.0
+    ],
+    [
+     "Wikelman González",
+     0.2
+    ]
+   ]
+  },
+  {
+   "club": "NYM",
+   "signees_16_22": 316,
+   "known_m_16_22": 14.14,
+   "known_m_16_19": 11.08,
+   "mlb7_16_19": 5,
+   "war7_16_19": 8.0,
+   "war_all_16_22": 15.1,
+   "fv50_16_22": 4,
+   "t100_16_22": 4,
+   "top_war": [
+    [
+     "Francisco Alvarez",
+     7.7
+    ],
+    [
+     "José Buttó",
+     3.9
+    ],
+    [
+     "Endy Rodríguez",
+     1.1
+    ]
+   ]
+  },
+  {
+   "club": "CWS",
+   "signees_16_22": 111,
+   "known_m_16_22": 31.7,
+   "known_m_16_19": 30.13,
+   "mlb7_16_19": 6,
+   "war7_16_19": 10.6,
+   "war_all_16_22": 13.2,
+   "fv50_16_22": 1,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Luis Robert Jr.",
+     14.2
+    ],
+    [
+     "Carlos Mejia",
+     0.0
+    ],
+    [
+     "Ramon Espinosa",
+     0.0
+    ]
+   ]
+  },
+  {
+   "club": "AZ",
+   "signees_16_22": 280,
+   "known_m_16_22": 13.43,
+   "known_m_16_19": 8.42,
+   "mlb7_16_19": 6,
+   "war7_16_19": 1.2,
+   "war_all_16_22": 12.8,
+   "fv50_16_22": 4,
+   "t100_16_22": 3,
+   "top_war": [
+    [
+     "Geraldo Perdomo",
+     13.4
+    ],
+    [
+     "Justin Martinez",
+     1.3
+    ],
+    [
+     "Liover Peguero",
+     0.1
+    ]
+   ]
+  },
+  {
+   "club": "MIA",
+   "signees_16_22": 183,
+   "known_m_16_22": 18.68,
+   "known_m_16_19": 10.9,
+   "mlb7_16_19": 4,
+   "war7_16_19": 9.4,
+   "war_all_16_22": 11.4,
+   "fv50_16_22": 3,
+   "t100_16_22": 4,
+   "top_war": [
+    [
+     "Eury Pérez",
+     5.8
+    ],
+    [
+     "Javier Sanoja",
+     3.8
+    ],
+    [
+     "Victor Mesa Jr.",
+     2.6
+    ]
+   ]
+  },
+  {
+   "club": "NYY",
+   "signees_16_22": 240,
+   "known_m_16_22": 24.18,
+   "known_m_16_19": 18.95,
+   "mlb7_16_19": 11,
+   "war7_16_19": 3.7,
+   "war_all_16_22": 11.0,
+   "fv50_16_22": 7,
+   "t100_16_22": 10,
+   "top_war": [
+    [
+     "Randy Vásquez",
+     5.6
+    ],
+    [
+     "Ezequiel Duran",
+     3.4
+    ],
+    [
+     "Jasson Domínguez",
+     1.5
+    ]
+   ]
+  },
+  {
+   "club": "KC",
+   "signees_16_22": 234,
+   "known_m_16_22": 11.08,
+   "known_m_16_19": 6.25,
+   "mlb7_16_19": 3,
+   "war7_16_19": 2.3,
+   "war_all_16_22": 10.6,
+   "fv50_16_22": 0,
+   "t100_16_22": 1,
+   "top_war": [
+    [
+     "Maikel Garcia",
+     9.0
+    ],
+    [
+     "Angel Zerpa",
+     1.2
+    ],
+    [
+     "Luinder Avila",
+     0.5
+    ]
+   ]
+  },
+  {
+   "club": "TB",
+   "signees_16_22": 227,
+   "known_m_16_22": 17.31,
+   "known_m_16_19": 12.27,
+   "mlb7_16_19": 3,
+   "war7_16_19": 9.1,
+   "war_all_16_22": 9.3,
+   "fv50_16_22": 1,
+   "t100_16_22": 1,
+   "top_war": [
+    [
+     "Wander Franco",
+     10.3
+    ],
+    [
+     "Jairo Caba",
+     0.0
+    ],
+    [
+     "Darwin Parra",
+     0.0
+    ]
+   ]
+  },
+  {
+   "club": "DET",
+   "signees_16_22": 172,
+   "known_m_16_22": 12.85,
+   "known_m_16_19": 7.47,
+   "mlb7_16_19": 0,
+   "war7_16_19": 0.0,
+   "war_all_16_22": 8.1,
+   "fv50_16_22": 1,
+   "t100_16_22": 1,
+   "top_war": [
+    [
+     "Keider Montero",
+     4.5
+    ],
+    [
+     "Wenceel Pérez",
+     2.1
+    ],
+    [
+     "Eduardo Valencia",
+     1.7
+    ]
+   ]
+  },
+  {
+   "club": "SD",
+   "signees_16_22": 189,
+   "known_m_16_22": 46.3,
+   "known_m_16_19": 38.09,
+   "mlb7_16_19": 7,
+   "war7_16_19": -0.9,
+   "war_all_16_22": 7.8,
+   "fv50_16_22": 5,
+   "t100_16_22": 6,
+   "top_war": [
+    [
+     "Adrian Morejon",
+     5.2
+    ],
+    [
+     "Bradgley Rodriguez",
+     1.7
+    ],
+    [
+     "Brandon Valenzuela",
+     1.6
+    ]
+   ]
+  },
+  {
+   "club": "PIT",
+   "signees_16_22": 242,
+   "known_m_16_22": 11.97,
+   "known_m_16_19": 6.76,
+   "mlb7_16_19": 8,
+   "war7_16_19": 4.7,
+   "war_all_16_22": 6.9,
+   "fv50_16_22": 2,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Luis Ortiz",
+     4.4
+    ],
+    [
+     "Esmerlyn Valdez",
+     1.8
+    ],
+    [
+     "Ji Hwan Bae",
+     0.5
+    ]
+   ]
+  },
+  {
+   "club": "TEX",
+   "signees_16_22": 261,
+   "known_m_16_22": 14.01,
+   "known_m_16_19": 10.17,
+   "mlb7_16_19": 8,
+   "war7_16_19": 1.3,
+   "war_all_16_22": 6.3,
+   "fv50_16_22": 1,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Heriberto Hernández",
+     3.7
+    ],
+    [
+     "Ronny Henriquez",
+     2.4
+    ],
+    [
+     "Luisangel Acuña",
+     0.8
+    ]
+   ]
+  },
+  {
+   "club": "BAL",
+   "signees_16_22": 177,
+   "known_m_16_22": 4.8,
+   "known_m_16_19": 0.25,
+   "mlb7_16_19": 1,
+   "war7_16_19": 5.5,
+   "war_all_16_22": 6.1,
+   "fv50_16_22": 1,
+   "t100_16_22": 3,
+   "top_war": [
+    [
+     "Félix Bautista",
+     6.5
+    ],
+    [
+     "Luis De León",
+     0.2
+    ],
+    [
+     "Samuel Basallo",
+     0.1
+    ]
+   ]
+  },
+  {
+   "club": "COL",
+   "signees_16_22": 176,
+   "known_m_16_22": 10.16,
+   "known_m_16_19": 5.71,
+   "mlb7_16_19": 5,
+   "war7_16_19": 1.5,
+   "war_all_16_22": 3.5,
+   "fv50_16_22": 2,
+   "t100_16_22": 4,
+   "top_war": [
+    [
+     "Ezequiel Tovar",
+     4.7
+    ],
+    [
+     "Juan Mejia",
+     0.2
+    ],
+    [
+     "Warming Bernabel",
+     0.1
+    ]
+   ]
+  },
+  {
+   "club": "PHI",
+   "signees_16_22": 262,
+   "known_m_16_22": 11.12,
+   "known_m_16_19": 6.05,
+   "mlb7_16_19": 5,
+   "war7_16_19": -0.6,
+   "war_all_16_22": 3.4,
+   "fv50_16_22": 0,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Johan Rojas",
+     2.5
+    ],
+    [
+     "Hao-Yu Lee",
+     1.3
+    ],
+    [
+     "Curtis Mead",
+     1.1
+    ]
+   ]
+  },
+  {
+   "club": "CHC",
+   "signees_16_22": 216,
+   "known_m_16_22": 16.75,
+   "known_m_16_19": 10.46,
+   "mlb7_16_19": 2,
+   "war7_16_19": 2.5,
+   "war_all_16_22": 3.1,
+   "fv50_16_22": 3,
+   "t100_16_22": 4,
+   "top_war": [
+    [
+     "Pedro Ramírez",
+     1.5
+    ],
+    [
+     "Christopher Morel",
+     1.3
+    ],
+    [
+     "Manuel Rodríguez",
+     1.2
+    ]
+   ]
+  },
+  {
+   "club": "LAA",
+   "signees_16_22": 151,
+   "known_m_16_22": 11.99,
+   "known_m_16_19": 7.25,
+   "mlb7_16_19": 1,
+   "war7_16_19": 0.0,
+   "war_all_16_22": 2.4,
+   "fv50_16_22": 2,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Walbert Ureña",
+     3.6
+    ],
+    [
+     "Anderson Montilla",
+     0.0
+    ],
+    [
+     "Darlyn Mota",
+     0.0
+    ]
+   ]
+  },
+  {
+   "club": "ATL",
+   "signees_16_22": 146,
+   "known_m_16_22": 10.57,
+   "known_m_16_19": 4.5,
+   "mlb7_16_19": 5,
+   "war7_16_19": -0.1,
+   "war_all_16_22": 1.0,
+   "fv50_16_22": 2,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Didier Fuentes",
+     1.3
+    ],
+    [
+     "Daysbel Hernández",
+     0.9
+    ],
+    [
+     "Livan Soto",
+     0.7
+    ]
+   ]
+  },
+  {
+   "club": "WSH",
+   "signees_16_22": 150,
+   "known_m_16_22": 17.34,
+   "known_m_16_19": 8.27,
+   "mlb7_16_19": 5,
+   "war7_16_19": -3.4,
+   "war_all_16_22": 0.9,
+   "fv50_16_22": 1,
+   "t100_16_22": 1,
+   "top_war": [
+    [
+     "Luis García Jr.",
+     2.5
+    ],
+    [
+     "José A. Ferrer",
+     0.8
+    ],
+    [
+     "Eddy Yean",
+     0.3
+    ]
+   ]
+  },
+  {
+   "club": "MIN",
+   "signees_16_22": 142,
+   "known_m_16_22": 11.64,
+   "known_m_16_19": 6.83,
+   "mlb7_16_19": 4,
+   "war7_16_19": -0.3,
+   "war_all_16_22": 0.4,
+   "fv50_16_22": 0,
+   "t100_16_22": 1,
+   "top_war": [
+    [
+     "Steven Cruz",
+     1.0
+    ],
+    [
+     "Prelander Berroa",
+     0.3
+    ],
+    [
+     "Emmanuel Rodriguez",
+     0.0
+    ]
+   ]
+  },
+  {
+   "club": "SF",
+   "signees_16_22": 191,
+   "known_m_16_22": 8.64,
+   "known_m_16_19": 7.5,
+   "mlb7_16_19": 4,
+   "war7_16_19": -2.1,
+   "war_all_16_22": 0.0,
+   "fv50_16_22": 2,
+   "t100_16_22": 2,
+   "top_war": [
+    [
+     "Randy Rodríguez",
+     2.0
+    ],
+    [
+     "Cesar Perdomo",
+     0.5
+    ],
+    [
+     "Jose Rivero",
+     0.0
+    ]
+   ]
+  },
+  {
+   "club": "ATH",
+   "signees_16_22": 134,
+   "known_m_16_22": 14.87,
+   "known_m_16_19": 9.46,
+   "mlb7_16_19": 3,
+   "war7_16_19": -0.2,
+   "war_all_16_22": -0.5,
+   "fv50_16_22": 0,
+   "t100_16_22": 0,
+   "top_war": [
+    [
+     "Daniel Palencia",
+     1.3
+    ],
+    [
+     "Wilfredo Magallanes",
+     0.0
+    ],
+    [
+     "Ruber Aquino",
+     0.0
+    ]
+   ]
+  }
+ ],
+ "ranked": {
+  "n_ranked": 209,
+  "n_all": 6029,
+  "mlb7_16_19": {
+   "total": 143,
+   "from_ranked": 26,
+   "share_ranked": 0.182
+  },
+  "fv50_16_22": {
+   "total": 67,
+   "from_ranked": 35,
+   "share_ranked": 0.522
+  },
+  "t100_16_22": {
+   "total": 91,
+   "from_ranked": 40,
+   "share_ranked": 0.44
+  },
+  "war7_16_19": {
+   "total": 159.9,
+   "ranked": 55.5
+  },
+  "rate_ranked_mlb7": 0.197,
+  "rate_unranked_mlb7": 0.0289
+ },
+ "top_producers": [
+  [
+   "Yordan Alvarez",
+   2016,
+   "LAD",
+   "Cuba",
+   "C",
+   null,
+   "unreported",
+   false,
+   2019.0,
+   29.3,
+   50.0
+  ],
+  [
+   "Elly De La Cruz",
+   2018,
+   "CIN",
+   "Dominican Republic",
+   "C",
+   65000.0,
+   "unreported",
+   false,
+   2023.0,
+   25.2,
+   60.0
+  ],
+  [
+   "Julio Rodríguez",
+   2017,
+   "SEA",
+   "Dominican Republic",
+   "A",
+   1750000.0,
+   "any_1m_plus",
+   true,
+   2022.0,
+   23.0,
+   65.0
+  ],
+  [
+   "Randy Arozarena",
+   2016,
+   "STL",
+   "Cuba",
+   "A",
+   1250000.0,
+   "any_1m_plus",
+   true,
+   2019.0,
+   19.9,
+   60.0
+  ],
+  [
+   "Luis Robert Jr.",
+   2016,
+   "CWS",
+   "Cuba",
+   "A",
+   26000000.0,
+   "any_1m_plus",
+   true,
+   2020.0,
+   14.2,
+   60.0
+  ],
+  [
+   "Alejandro Kirk",
+   2016,
+   "TOR",
+   "Mexico",
+   "C",
+   30000.0,
+   "unreported",
+   false,
+   2020.0,
+   13.9,
+   50.0
+  ],
+  [
+   "Geraldo Perdomo",
+   2016,
+   "AZ",
+   "Dominican Republic",
+   "C",
+   70000.0,
+   "unreported",
+   false,
+   2021.0,
+   13.4,
+   50.0
+  ],
+  [
+   "Jackson Chourio",
+   2021,
+   "MIL",
+   "Venezuela",
+   "A",
+   1900000.0,
+   "early",
+   true,
+   2024.0,
+   11.9,
+   65.0
+  ],
+  [
+   "Junior Caminero",
+   2019,
+   "CLE",
+   "Dominican Republic",
+   "C",
+   225000.0,
+   "unreported",
+   false,
+   2023.0,
+   11.4,
+   60.0
+  ],
+  [
+   "Wander Franco",
+   2017,
+   "TB",
+   "Dominican Republic",
+   "A",
+   3825000.0,
+   "any_1m_plus",
+   true,
+   2021.0,
+   10.3,
+   80.0
+  ],
+  [
+   "Otto Lopez",
+   2016,
+   "TOR",
+   "Dominican Republic",
+   "C",
+   60000.0,
+   "unreported",
+   false,
+   2021.0,
+   9.8,
+   45.0
+  ],
+  [
+   "Gabriel Moreno",
+   2016,
+   "TOR",
+   "Venezuela",
+   "C",
+   25000.0,
+   "unreported",
+   false,
+   2022.0,
+   9.7,
+   60.0
+  ],
+  [
+   "Brayan Bello",
+   2017,
+   "BOS",
+   "Dominican Republic",
+   "C",
+   28000.0,
+   "unreported",
+   false,
+   2022.0,
+   9.1,
+   50.0
+  ],
+  [
+   "Wilyer Abreu",
+   2017,
+   "HOU",
+   "Venezuela",
+   "C",
+   300000.0,
+   "unreported",
+   false,
+   2023.0,
+   9.0,
+   45.0
+  ],
+  [
+   "Maikel Garcia",
+   2016,
+   "KC",
+   "Venezuela",
+   "C",
+   30000.0,
+   "unreported",
+   false,
+   2022.0,
+   9.0,
+   50.0
+  ],
+  [
+   "Andy Pages",
+   2017,
+   "LAD",
+   "Dominican Republic",
+   "C",
+   300000.0,
+   "unreported",
+   false,
+   2024.0,
+   9.0,
+   50.0
+  ],
+  [
+   "Ceddanne Rafaela",
+   2017,
+   "BOS",
+   "Curacao",
+   "C",
+   10000.0,
+   "unreported",
+   false,
+   2023.0,
+   9.0,
+   50.0
+  ],
+  [
+   "Francisco Alvarez",
+   2018,
+   "NYM",
+   "Venezuela",
+   "A",
+   2700000.0,
+   "early",
+   true,
+   2022.0,
+   7.7,
+   60.0
+  ],
+  [
+   "Luis Garcia",
+   2017,
+   "HOU",
+   "Venezuela",
+   "C",
+   20000.0,
+   "unreported",
+   false,
+   2020.0,
+   6.8,
+   45.0
+  ],
+  [
+   "Félix Bautista",
+   2016,
+   "BAL",
+   "Dominican Republic",
+   "C",
+   18000.0,
+   "unreported",
+   false,
+   2022.0,
+   6.5,
+   37.0
+  ],
+  [
+   "Miguel Vargas",
+   2017,
+   "LAD",
+   "Cuba",
+   "C",
+   300000.0,
+   "unreported",
+   false,
+   2022.0,
+   6.5,
+   50.0
+  ],
+  [
+   "Yainer Diaz",
+   2016,
+   "CLE",
+   "Dominican Republic",
+   "C",
+   25000.0,
+   "unreported",
+   false,
+   2022.0,
+   6.5,
+   50.0
+  ],
+  [
+   "Iván Herrera",
+   2016,
+   "STL",
+   "Panama",
+   "C",
+   200000.0,
+   "unreported",
+   false,
+   2022.0,
+   6.2,
+   50.0
+  ],
+  [
+   "Abner Uribe",
+   2018,
+   "MIL",
+   "Dominican Republic",
+   "C",
+   85000.0,
+   "unreported",
+   false,
+   2023.0,
+   6.0,
+   45.0
+  ],
+  [
+   "Eury Pérez",
+   2019,
+   "MIA",
+   "Dominican Republic",
+   "C",
+   200000.0,
+   "early",
+   false,
+   2023.0,
+   5.8,
+   65.0
+  ]
+ ],
+ "years_to_mlb": {
+  "2": 1,
+  "3": 8,
+  "4": 14,
+  "5": 29,
+  "6": 52,
+  "7": 39,
+  "8": 28,
+  "9": 11,
+  "10": 3
+ },
+ "pro_signings": [
+  [
+   "Miguel Aguilar",
+   2016,
+   "AZ",
+   "Mexico",
+   25.0,
+   null,
+   true,
+   0.0
+  ],
+  [
+   "Cristofer Ogando",
+   2017,
+   "AZ",
+   "Dominican Republic",
+   24.6,
+   null,
+   true,
+   0.0
+  ],
+  [
+   "Shohei Ohtani",
+   2017,
+   "LAA",
+   "Japan",
+   23.4,
+   null,
+   true,
+   54.8
+  ],
+  [
+   "Adolis García",
+   2016,
+   "STL",
+   "Cuba",
+   24.0,
+   null,
+   true,
+   10.4
+  ],
+  [
+   "Lourdes Gurriel Jr.",
+   2016,
+   "TOR",
+   "Cuba",
+   23.1,
+   null,
+   true,
+   11.1
+  ],
+  [
+   "Yoelqui Céspedes",
+   2021,
+   "CWS",
+   "Cuba",
+   23.3,
+   2050000.0,
+   false,
+   0.0
+  ],
+  [
+   "Dairon Blanco",
+   2017,
+   "ATH",
+   "Cuba",
+   24.9,
+   null,
+   true,
+   1.6
+  ],
+  [
+   "Hsin-Chieh Lin",
+   2017,
+   "PHI",
+   "Taiwan",
+   19.2,
+   250000.0,
+   false,
+   0.0
+  ],
+  [
+   "Chih-Jung Liu",
+   2019,
+   "BOS",
+   "Taiwan",
+   20.5,
+   750000.0,
+   false,
+   0.0
+  ],
+  [
+   "Oscar Colás",
+   2022,
+   "CWS",
+   "Cuba",
+   23.4,
+   2700000.0,
+   true,
+   -0.9
+  ],
+  [
+   "Po-Yu Chen",
+   2019,
+   "PIT",
+   "Taiwan",
+   19.0,
+   1250000.0,
+   false,
+   0.0
+  ],
+  [
+   "Chen Zhong-Ao Zhuang",
+   2021,
+   "ATH",
+   "Taiwan",
+   21.2,
+   500000.0,
+   false,
+   0.0
+  ],
+  [
+   "Geisel Cepeda",
+   2023,
+   "TEX",
+   "Cuba",
+   25.0,
+   1000000.0,
+   false,
+   0.0
+  ],
+  [
+   "Wen-Hui Pan",
+   2023,
+   "PHI",
+   "Taiwan",
+   20.3,
+   350000.0,
+   false,
+   0.0
+  ],
+  [
+   "Roki Sasaki",
+   2025,
+   "LAD",
+   "Japan",
+   23.2,
+   6500000.0,
+   true,
+   1.8
+  ],
+  [
+   "Yunior Tur",
+   2023,
+   "ATH",
+   "Cuba",
+   23.7,
+   100000.0,
+   true,
+   -0.9
+  ],
+  [
+   "Hyun-Seok Jang",
+   2023,
+   "LAD",
+   "South Korea",
+   19.4,
+   900000.0,
+   false,
+   0.0
+  ],
+  [
+   "Chia-Shi Shen",
+   2024,
+   "SEA",
+   "Taiwan",
+   20.6,
+   null,
+   false,
+   0.0
+  ],
+  [
+   "Chung-Hsiang Huang",
+   2024,
+   "AZ",
+   "Taiwan",
+   19.1,
+   210000.0,
+   false,
+   0.0
+  ]
+ ],
+ "desc": {
+  "country_16_22": [
+   {
+    "country": "Dominican Republic",
+    "recorded_n": 338,
+    "recorded_m": 195.0806,
+    "mlb": 104,
+    "mlb_16_19": 90,
+    "war": 177.0455,
+    "fv50": 41,
+    "t100": 38,
+    "million_plus": 70,
+    "mlb_from_million_plus": 15,
+    "recorded_m_sh": 0.4287,
+    "mlb_sh": 0.486,
+    "war_sh": 0.4821,
+    "fv50_sh": 0.4457,
+    "t100_sh": 0.4176
+   },
+   {
+    "country": "Cuba",
+    "recorded_n": 49,
+    "recorded_m": 117.015,
+    "mlb": 24,
+    "mlb_16_19": 20,
+    "war": 80.0641,
+    "fv50": 15,
+    "t100": 18,
+    "million_plus": 26,
+    "mlb_from_million_plus": 13,
+    "recorded_m_sh": 0.2571,
+    "mlb_sh": 0.1121,
+    "war_sh": 0.218,
+    "fv50_sh": 0.163,
+    "t100_sh": 0.1978
+   },
+   {
+    "country": "Venezuela",
+    "recorded_n": 193,
+    "recorded_m": 112.408,
+    "mlb": 57,
+    "mlb_16_19": 47,
+    "war": 76.4453,
+    "fv50": 24,
+    "t100": 23,
+    "million_plus": 42,
+    "mlb_from_million_plus": 9,
+    "recorded_m_sh": 0.247,
+    "mlb_sh": 0.2664,
+    "war_sh": 0.2082,
+    "fv50_sh": 0.2609,
+    "t100_sh": 0.2527
+   },
+   {
+    "country": "Bahamas",
+    "recorded_n": 7,
+    "recorded_m": 7.386,
+    "mlb": 0,
+    "mlb_16_19": 0,
+    "war": 0.0,
+    "fv50": 2,
+    "t100": 2,
+    "million_plus": 2,
+    "mlb_from_million_plus": 0,
+    "recorded_m_sh": 0.0162,
+    "mlb_sh": 0.0,
+    "war_sh": 0.0,
+    "fv50_sh": 0.0217,
+    "t100_sh": 0.022
+   },
+   {
+    "country": "Mexico",
+    "recorded_n": 26,
+    "recorded_m": 6.445,
+    "mlb": 10,
+    "mlb_16_19": 10,
+    "war": 17.5191,
+    "fv50": 2,
+    "t100": 2,
+    "million_plus": 2,
+    "mlb_from_million_plus": 0,
+    "recorded_m_sh": 0.0142,
+    "mlb_sh": 0.0467,
+    "war_sh": 0.0477,
+    "fv50_sh": 0.0217,
+    "t100_sh": 0.022
+   },
+   {
+    "country": "Asia/Pacific",
+    "recorded_n": 11,
+    "recorded_m": 4.495,
+    "mlb": 7,
+    "mlb_16_19": 6,
+    "war": 1.5401,
+    "fv50": 1,
+    "t100": 1,
+    "million_plus": 1,
+    "mlb_from_million_plus": 1,
+    "recorded_m_sh": 0.0099,
+    "mlb_sh": 0.0327,
+    "war_sh": 0.0042,
+    "fv50_sh": 0.0109,
+    "t100_sh": 0.011
+   },
+   {
+    "country": "Colombia",
+    "recorded_n": 15,
+    "recorded_m": 4.435,
+    "mlb": 5,
+    "mlb_16_19": 3,
+    "war": 0.4974,
+    "fv50": 3,
+    "t100": 3,
+    "million_plus": 1,
+    "mlb_from_million_plus": 1,
+    "recorded_m_sh": 0.0097,
+    "mlb_sh": 0.0234,
+    "war_sh": 0.0014,
+    "fv50_sh": 0.0326,
+    "t100_sh": 0.033
+   },
+   {
+    "country": "Panama",
+    "recorded_n": 10,
+    "recorded_m": 4.27,
+    "mlb": 3,
+    "mlb_16_19": 2,
+    "war": 6.8465,
+    "fv50": 3,
+    "t100": 2,
+    "million_plus": 1,
+    "mlb_from_million_plus": 0,
+    "recorded_m_sh": 0.0094,
+    "mlb_sh": 0.014,
+    "war_sh": 0.0186,
+    "fv50_sh": 0.0326,
+    "t100_sh": 0.022
+   },
+   {
+    "country": "Other",
+    "recorded_n": 14,
+    "recorded_m": 3.2175,
+    "mlb": 3,
+    "mlb_16_19": 2,
+    "war": -1.7412,
+    "fv50": 0,
+    "t100": 1,
+    "million_plus": 1,
+    "mlb_from_million_plus": 0,
+    "recorded_m_sh": 0.0071,
+    "mlb_sh": 0.014,
+    "war_sh": -0.0047,
+    "fv50_sh": 0.0,
+    "t100_sh": 0.011
+   },
+   {
+    "country": "Curacao",
+    "recorded_n": 3,
+    "recorded_m": 0.34,
+    "mlb": 1,
+    "mlb_16_19": 1,
+    "war": 8.9863,
+    "fv50": 1,
+    "t100": 1,
+    "million_plus": 0,
+    "mlb_from_million_plus": 0,
+    "recorded_m_sh": 0.0007,
+    "mlb_sh": 0.0047,
+    "war_sh": 0.0245,
+    "fv50_sh": 0.0109,
+    "t100_sh": 0.011
+   },
+   {
+    "country": "Unknown",
+    "recorded_n": 0,
+    "recorded_m": 0.0,
+    "mlb": 4,
+    "mlb_16_19": 4,
+    "war": -0.4805,
+    "fv50": 0,
+    "t100": 0,
+    "million_plus": 0,
+    "mlb_from_million_plus": 0,
+    "recorded_m_sh": 0.0,
+    "mlb_sh": 0.0187,
+    "war_sh": -0.0013,
+    "fv50_sh": 0.0,
+    "t100_sh": 0.0
+   }
+  ],
+  "money_share_by_period": {
+   "2016": {
+    "Dominican Republic": 0.2,
+    "Venezuela": 0.077,
+    "Cuba": 0.704,
+    "Other": 0.019,
+    "recorded_m": 97.0
+   },
+   "2017": {
+    "Dominican Republic": 0.395,
+    "Venezuela": 0.315,
+    "Cuba": 0.048,
+    "Other": 0.242,
+    "recorded_m": 52.3
+   },
+   "2018": {
+    "Dominican Republic": 0.518,
+    "Venezuela": 0.23,
+    "Cuba": 0.224,
+    "Other": 0.028,
+    "recorded_m": 70.0
+   },
+   "2019": {
+    "Dominican Republic": 0.524,
+    "Venezuela": 0.318,
+    "Cuba": 0.088,
+    "Other": 0.07,
+    "recorded_m": 82.8
+   },
+   "2021": {
+    "Dominican Republic": 0.528,
+    "Venezuela": 0.311,
+    "Cuba": 0.12,
+    "Other": 0.041,
+    "recorded_m": 80.2
+   },
+   "2022": {
+    "Dominican Republic": 0.454,
+    "Venezuela": 0.29,
+    "Cuba": 0.187,
+    "Other": 0.069,
+    "recorded_m": 72.8
+   },
+   "2023": {
+    "Dominican Republic": 0.53,
+    "Venezuela": 0.273,
+    "Cuba": 0.119,
+    "Other": 0.078,
+    "recorded_m": 88.8
+   },
+   "2024": {
+    "Dominican Republic": 0.689,
+    "Venezuela": 0.199,
+    "Cuba": 0.074,
+    "Other": 0.038,
+    "recorded_m": 99.3
+   },
+   "2025": {
+    "Dominican Republic": 0.591,
+    "Venezuela": 0.257,
+    "Cuba": 0.071,
+    "Other": 0.081,
+    "recorded_m": 96.6
+   },
+   "2026": {
+    "Dominican Republic": 0.608,
+    "Venezuela": 0.312,
+    "Cuba": 0.058,
+    "Other": 0.022,
+    "recorded_m": 99.5
+   }
+  },
+  "pool_2018": {
+   "pool_m": 158.3899,
+   "recorded_ab_m": 65.9,
+   "recorded_all_m": 70.0,
+   "c_signees": 982,
+   "implied_avg_c_k": 94.1,
+   "note": "Pool minus recorded tier A/B money, spread over tier C. Upper-ish bound: clubs can trade pool space and $10K-or-less signings sit outside the pool.",
+   "A": {
+    "n": 28,
+    "dollars_m": 51.4,
+    "mlb7": 6,
+    "war7": 8.1,
+    "mlb_per_10m": 1.17,
+    "war_per_10m": 1.57
+   },
+   "B": {
+    "n": 29,
+    "dollars_m": 14.5,
+    "mlb7": 3,
+    "war7": -0.2,
+    "mlb_per_10m": 2.07,
+    "war_per_10m": -0.13
+   },
+   "C": {
+    "n": 982,
+    "dollars_m": 92.5,
+    "mlb7": 18,
+    "war7": 25.0,
+    "mlb_per_10m": 1.95,
+    "war_per_10m": 2.71
+   }
+  },
+  "tier_18_19": {
+   "A": {
+    "n": 56,
+    "share_signees": 0.029,
+    "mlb7": 11,
+    "war7": 8.6,
+    "fv50": 12
+   },
+   "B": {
+    "n": 43,
+    "share_signees": 0.022,
+    "mlb7": 3,
+    "war7": -0.2,
+    "fv50": 1
+   },
+   "C": {
+    "n": 1856,
+    "share_signees": 0.949,
+    "mlb7": 40,
+    "war7": 42.4,
+    "fv50": 5
+   }
+  },
+  "timing_money": {
+   "open14": 0.753,
+   "day0": 0.679,
+   "million_plus_open14": 0.829
+  },
+  "timing_counts": {
+   "Day 1": 2032,
+   "Days 2-15": 572,
+   "Weeks 3-8": 618,
+   "Months 3-6": 1275,
+   "Months 7-13": 1479,
+   "Later": 53
+  },
+  "clubs_16_22": [
+   {
+    "club": "LAD",
+    "signees": 287,
+    "recorded_m": 16.8,
+    "million_plus": 3,
+    "mlb": 11,
+    "war": 49.4,
+    "fv50": 7,
+    "t100": 6,
+    "mlb7_16_19": 5,
+    "best": [
+     "Yordan Alvarez 29.3",
+     "Andy Pages 9.0"
+    ]
+   },
+   {
+    "club": "TOR",
+    "signees": 209,
+    "recorded_m": 15.8,
+    "million_plus": 6,
+    "mlb": 9,
+    "war": 33.4,
+    "fv50": 4,
+    "t100": 5,
+    "mlb7_16_19": 7,
+    "best": [
+     "Alejandro Kirk 13.9",
+     "Otto Lopez 9.8"
+    ]
+   },
+   {
+    "club": "STL",
+    "signees": 179,
+    "recorded_m": 8.0,
+    "million_plus": 3,
+    "mlb": 6,
+    "war": 30.9,
+    "fv50": 3,
+    "t100": 3,
+    "mlb7_16_19": 4,
+    "best": [
+     "Randy Arozarena 19.9",
+     "Iván Herrera 6.2"
+    ]
+   },
+   {
+    "club": "CIN",
+    "signees": 148,
+    "recorded_m": 16.7,
+    "million_plus": 5,
+    "mlb": 7,
+    "war": 23.1,
+    "fv50": 3,
+    "t100": 2,
+    "mlb7_16_19": 5,
+    "best": [
+     "Elly De La Cruz 25.2",
+     "Vladimir Gutierrez 1.1"
+    ]
+   },
+   {
+    "club": "SEA",
+    "signees": 118,
+    "recorded_m": 11.5,
+    "million_plus": 6,
+    "mlb": 10,
+    "war": 22.6,
+    "fv50": 4,
+    "t100": 5,
+    "mlb7_16_19": 6,
+    "best": [
+     "Julio Rodríguez 23.0",
+     "Noelvi Marte 1.1"
+    ]
+   },
+   {
+    "club": "CLE",
+    "signees": 197,
+    "recorded_m": 13.9,
+    "million_plus": 7,
+    "mlb": 9,
+    "war": 21.0,
+    "fv50": 7,
+    "t100": 7,
+    "mlb7_16_19": 7,
+    "best": [
+     "Junior Caminero 11.4",
+     "Yainer Diaz 6.5"
+    ]
+   },
+   {
+    "club": "MIL",
+    "signees": 245,
+    "recorded_m": 12.8,
+    "million_plus": 7,
+    "mlb": 5,
+    "war": 18.6,
+    "fv50": 2,
+    "t100": 2,
+    "mlb7_16_19": 2,
+    "best": [
+     "Jackson Chourio 11.9",
+     "Abner Uribe 6.0"
+    ]
+   },
+   {
+    "club": "HOU",
+    "signees": 217,
+    "recorded_m": 14.6,
+    "million_plus": 5,
+    "mlb": 8,
+    "war": 18.3,
+    "fv50": 1,
+    "t100": 1,
+    "mlb7_16_19": 6,
+    "best": [
+     "Wilyer Abreu 9.0",
+     "Luis Garcia 6.8"
+    ]
+   },
+   {
+    "club": "BOS",
+    "signees": 229,
+    "recorded_m": 11.4,
+    "million_plus": 4,
+    "mlb": 6,
+    "war": 16.5,
+    "fv50": 3,
+    "t100": 3,
+    "mlb7_16_19": 5,
+    "best": [
+     "Brayan Bello 9.1",
+     "Ceddanne Rafaela 9.0"
+    ]
+   },
+   {
+    "club": "NYM",
+    "signees": 316,
+    "recorded_m": 14.1,
+    "million_plus": 6,
+    "mlb": 8,
+    "war": 15.1,
+    "fv50": 4,
+    "t100": 4,
+    "mlb7_16_19": 5,
+    "best": [
+     "Francisco Alvarez 7.7",
+     "José Buttó 3.9"
+    ]
+   },
+   {
+    "club": "CWS",
+    "signees": 111,
+    "recorded_m": 31.7,
+    "million_plus": 3,
+    "mlb": 6,
+    "war": 13.2,
+    "fv50": 2,
+    "t100": 2,
+    "mlb7_16_19": 6,
+    "best": [
+     "Luis Robert Jr. 14.2"
+    ]
+   },
+   {
+    "club": "AZ",
+    "signees": 280,
+    "recorded_m": 13.4,
+    "million_plus": 3,
+    "mlb": 11,
+    "war": 12.8,
+    "fv50": 4,
+    "t100": 3,
+    "mlb7_16_19": 6,
+    "best": [
+     "Geraldo Perdomo 13.4",
+     "Justin Martinez 1.3"
+    ]
+   },
+   {
+    "club": "MIA",
+    "signees": 183,
+    "recorded_m": 18.7,
+    "million_plus": 4,
+    "mlb": 4,
+    "war": 11.4,
+    "fv50": 3,
+    "t100": 4,
+    "mlb7_16_19": 4,
+    "best": [
+     "Eury Pérez 5.8",
+     "Javier Sanoja 3.8"
+    ]
+   },
+   {
+    "club": "NYY",
+    "signees": 240,
+    "recorded_m": 24.2,
+    "million_plus": 7,
+    "mlb": 15,
+    "war": 11.0,
+    "fv50": 10,
+    "t100": 10,
+    "mlb7_16_19": 11,
+    "best": [
+     "Randy Vásquez 5.6",
+     "Ezequiel Duran 3.4"
+    ]
+   },
+   {
+    "club": "KC",
+    "signees": 234,
+    "recorded_m": 11.1,
+    "million_plus": 3,
+    "mlb": 5,
+    "war": 10.6,
+    "fv50": 1,
+    "t100": 1,
+    "mlb7_16_19": 3,
+    "best": [
+     "Maikel Garcia 9.0",
+     "Angel Zerpa 1.2"
+    ]
+   },
+   {
+    "club": "TB",
+    "signees": 227,
+    "recorded_m": 17.3,
+    "million_plus": 6,
+    "mlb": 3,
+    "war": 9.3,
+    "fv50": 2,
+    "t100": 1,
+    "mlb7_16_19": 3,
+    "best": [
+     "Wander Franco 10.3"
+    ]
+   },
+   {
+    "club": "DET",
+    "signees": 172,
+    "recorded_m": 12.8,
+    "million_plus": 5,
+    "mlb": 5,
+    "war": 8.1,
+    "fv50": 1,
+    "t100": 1,
+    "mlb7_16_19": 0,
+    "best": [
+     "Keider Montero 4.5",
+     "Wenceel Pérez 2.1"
+    ]
+   },
+   {
+    "club": "SD",
+    "signees": 189,
+    "recorded_m": 46.3,
+    "million_plus": 14,
+    "mlb": 12,
+    "war": 7.8,
+    "fv50": 7,
+    "t100": 6,
+    "mlb7_16_19": 7,
+    "best": [
+     "Adrian Morejon 5.2",
+     "Bradgley Rodriguez 1.7"
+    ]
+   },
+   {
+    "club": "PIT",
+    "signees": 242,
+    "recorded_m": 12.0,
+    "million_plus": 3,
+    "mlb": 11,
+    "war": 6.9,
+    "fv50": 2,
+    "t100": 2,
+    "mlb7_16_19": 8,
+    "best": [
+     "Luis Ortiz 4.4",
+     "Esmerlyn Valdez 1.8"
+    ]
+   },
+   {
+    "club": "TEX",
+    "signees": 261,
+    "recorded_m": 14.0,
+    "million_plus": 4,
+    "mlb": 9,
+    "war": 6.3,
+    "fv50": 3,
+    "t100": 2,
+    "mlb7_16_19": 8,
+    "best": [
+     "Heriberto Hernández 3.7",
+     "Ronny Henriquez 2.4"
+    ]
+   },
+   {
+    "club": "BAL",
+    "signees": 177,
+    "recorded_m": 4.8,
+    "million_plus": 2,
+    "mlb": 4,
+    "war": 6.1,
+    "fv50": 3,
+    "t100": 3,
+    "mlb7_16_19": 1,
+    "best": [
+     "Félix Bautista 6.5",
+     "Luis De León 0.2"
+    ]
+   },
+   {
+    "club": "COL",
+    "signees": 176,
+    "recorded_m": 10.2,
+    "million_plus": 2,
+    "mlb": 8,
+    "war": 3.5,
+    "fv50": 3,
+    "t100": 4,
+    "mlb7_16_19": 5,
+    "best": [
+     "Ezequiel Tovar 4.7",
+     "Juan Mejia 0.2"
+    ]
+   },
+   {
+    "club": "PHI",
+    "signees": 262,
+    "recorded_m": 11.1,
+    "million_plus": 4,
+    "mlb": 7,
+    "war": 3.4,
+    "fv50": 1,
+    "t100": 2,
+    "mlb7_16_19": 5,
+    "best": [
+     "Johan Rojas 2.5",
+     "Hao-Yu Lee 1.3"
+    ]
+   },
+   {
+    "club": "CHC",
+    "signees": 216,
+    "recorded_m": 16.8,
+    "million_plus": 8,
+    "mlb": 8,
+    "war": 3.1,
+    "fv50": 4,
+    "t100": 4,
+    "mlb7_16_19": 2,
+    "best": [
+     "Pedro Ramírez 1.5",
+     "Christopher Morel 1.3"
+    ]
+   },
+   {
+    "club": "LAA",
+    "signees": 151,
+    "recorded_m": 12.0,
+    "million_plus": 6,
+    "mlb": 5,
+    "war": 2.4,
+    "fv50": 2,
+    "t100": 2,
+    "mlb7_16_19": 1,
+    "best": [
+     "Walbert Ureña 3.6"
+    ]
+   },
+   {
+    "club": "ATL",
+    "signees": 146,
+    "recorded_m": 10.6,
+    "million_plus": 4,
+    "mlb": 6,
+    "war": 1.0,
+    "fv50": 2,
+    "t100": 2,
+    "mlb7_16_19": 5,
+    "best": [
+     "Didier Fuentes 1.3",
+     "Daysbel Hernández 0.9"
+    ]
+   },
+   {
+    "club": "WSH",
+    "signees": 150,
+    "recorded_m": 17.3,
+    "million_plus": 5,
+    "mlb": 6,
+    "war": 0.9,
+    "fv50": 1,
+    "t100": 1,
+    "mlb7_16_19": 5,
+    "best": [
+     "Luis García Jr. 2.5",
+     "José A. Ferrer 0.8"
+    ]
+   },
+   {
+    "club": "MIN",
+    "signees": 142,
+    "recorded_m": 11.6,
+    "million_plus": 4,
+    "mlb": 4,
+    "war": 0.4,
+    "fv50": 1,
+    "t100": 1,
+    "mlb7_16_19": 4,
+    "best": [
+     "Steven Cruz 1.0",
+     "Prelander Berroa 0.3"
+    ]
+   },
+   {
+    "club": "SF",
+    "signees": 191,
+    "recorded_m": 8.6,
+    "million_plus": 3,
+    "mlb": 6,
+    "war": 0.0,
+    "fv50": 2,
+    "t100": 2,
+    "mlb7_16_19": 4,
+    "best": [
+     "Randy Rodríguez 2.0",
+     "Cesar Perdomo 0.5"
+    ]
+   },
+   {
+    "club": "ATH",
+    "signees": 134,
+    "recorded_m": 14.9,
+    "million_plus": 4,
+    "mlb": 4,
+    "war": -0.5,
+    "fv50": 0,
+    "t100": 0,
+    "mlb7_16_19": 3,
+    "best": [
+     "Daniel Palencia 1.3"
+    ]
+   }
+  ],
+  "years_to_mlb_by_country": {
+   "Cuba": {
+    "n": 20,
+    "median_years": 5.0
+   },
+   "Dominican Republic": {
+    "n": 90,
+    "median_years": 6.5
+   },
+   "Other": {
+    "n": 28,
+    "median_years": 7.0
+   },
+   "Venezuela": {
+    "n": 47,
+    "median_years": 6.0
+   }
+  },
+  "age_million_plus_by_country": {
+   "Cuba": 19.4,
+   "Dominican Republic": 16.7,
+   "Other": 16.9,
+   "Venezuela": 16.8
+  },
+  "T3_logged_only": {
+   "share_logged": 0.962,
+   "mlb7": {
+    "n": 3899,
+    "or_open": 1.54,
+    "ci": [
+     1.07,
+     2.22
+    ],
+    "p": 0.0197
+   },
+   "fv50": {
+    "n": 5691,
+    "or_open": 2.15,
+    "ci": [
+     1.13,
+     4.1
+    ],
+    "p": 0.0204
+   }
+  }
+ }
+}
